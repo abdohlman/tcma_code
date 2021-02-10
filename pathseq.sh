@@ -6,12 +6,12 @@
 #SBATCH --mail-type FAIL,END --mail-user abd30@duke.edu
 #SBATCH --time 00:00:00
 
-# USAGE: sbatch -J $job_name --array 0-$(expr $(wc -l < $manifest) - 2)%25 pathseq.sh $token_file> $manifest $min_clipped_read_length
+# USAGE: sbatch -J $job_name --array 0-$(expr $(wc -l < $manifest) - 2)%25 pathseq.sh $token_file $manifest $min_clipped_read_length
 
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 1-19-21                       #
+# Last updated 2-10-21                       #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 

@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
+# USAGE: python compute_prevalence.py $project $assay
+
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 1-19-21                       #
+# Last updated 2-10-21                       #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
-
-# USAGE: python compute_prevalence.py <PROJECT> <ASSAY>
 
 import os
 import sys
