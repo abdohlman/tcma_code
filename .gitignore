@@ -2,3 +2,12 @@ pathseq_out/*
 results/*
 mixtures/*
 prevalence/*
+
+manifests/*
+!manifests/gdc_manifest.{WGS,WXS}.{COAD,READ,ESCA,HNSC,STAD}.txt
+!manifests/gdc_manifest.WGS.{GBM,LGG}.txt
+
+metadata/*
+!metadata/metadata.{COAD,READ,ESCA,HNSC,STAD}.*.txt
+!metadata/metadata.{GBM,LGG}.*.txt
+
