@@ -5,7 +5,7 @@
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-10-21                       #
+# Last updated 2-16-21                       #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
@@ -41,16 +41,22 @@ def compute_prevalence_vs_blood(project, assay, domain, stat, min_reads=2, downs
 	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
 
 	fname = './metadata/metadata.{}.all.txt'.format(project)
-	if not os.path.exists(fname): return pd.DataFrame()
+	if not os.path.exists(fname):
+		print("ERROR: no metadata file for {} present".format(project))
+		return pd.DataFrame()
 	meta = pd.read_csv(fname,sep='\t',index_col=0,low_memory=False)
 
 	fname = './results/{}/{}/{}.{}.txt'.format(project, assay, domain, stat)
-	if not os.path.exists(fname): return pd.DataFrame()
+	if not os.path.exists(fname):
+		print("ERROR: no results file present.")
+		return pd.DataFrame()
 	data = pd.read_csv(fname,sep='\t',index_col=0)
 
 	meta = meta.loc[data.columns]
 
-	if 'BDN' not in meta['sample.Sample'].unique(): return pd.DataFrame()
+	if 'BDN' not in meta['sample.Sample'].unique():
+		print("ERROR: no blood samples present")
+		return pd.DataFrame()
 
 	samples_neg = meta.index[meta['sample.Sample']=='BDN']
 	samples_pos = meta.index[meta['sample.Sample'].isin(['PT','STN'])]
@@ -79,7 +85,7 @@ def compute_prevalence_vs_project(project, assay, domain, stat, sample_type, com
 
 	fname = './metadata/metadata.{}.all.txt'.format(project)
 	if not os.path.exists(fname):
-		print("ERROR: metadata file not found.")
+		print("ERROR: no metadata file for {} present".format(project))
 		exit(1)
 
 	meta_proj = pd.read_csv(fname,sep='\t',index_col=0,low_memory=False)
@@ -87,7 +93,9 @@ def compute_prevalence_vs_project(project, assay, domain, stat, sample_type, com
 	ctrl_frames = []
 	for project_ctrl in compare_projects:
 		fname = './metadata/metadata.{}.all.txt'.format(project_ctrl)
-		if not os.path.exists(fname): return pd.DataFrame()
+		if not os.path.exists(fname):
+			print("ERROR: Comparison {} metadata is not present".format(project_ctrl))
+			return pd.DataFrame()
 		df = pd.read_csv(fname,sep='\t',index_col=0,low_memory=False)
 		ctrl_frames.append(df)
 
@@ -106,6 +114,11 @@ def compute_prevalence_vs_project(project, assay, domain, stat, sample_type, com
 	meta = meta.loc[data.columns]
 
 	sample_names = {'blood':['BDN'],'tissue':['PT','STN']}[sample_type]
+
+	if len( set(sample_names) & set(meta['sample.Sample'].unique()) ) == 0:
+		print("ERROR: no {} samples present".format(sample_type))
+		return pd.DataFrame()
+
 	meta = meta.loc[meta['sample.Sample'].isin(sample_names)]
 
 	data = data[meta.index]
@@ -159,16 +172,16 @@ if __name__ == "__main__":
 	# Calculate project tissue vs. project blood prevalence
 	df = compute_prevalence_vs_blood(project, assay, domain, stat)
 	fname = './prevalence/prevalence.{}.{}.{}.{}.txt'.format(project,assay,domain,stat)
-	df.to_csv(fname,sep='\t')
+	if len(df) > 0: df.to_csv(fname,sep='\t')
 
 	# Calculate project tissue vs. control tissue prevalence
 	df = compute_prevalence_vs_project(project, assay, domain, stat, sample_type='tissue', compare_projects=compare_projects, )
 	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.tissue.txt'.format(project_ctrl_name,project,assay,domain,stat)
-	df.to_csv(fname,sep='\t')
+	if len(df) > 0: df.to_csv(fname,sep='\t')
 
 	# Calculate project blood vs. control blood prevalence
 	df = compute_prevalence_vs_project(project, assay, domain, stat, sample_type='blood', compare_projects=compare_projects)
 	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.blood.txt'.format(project_ctrl_name,project,assay,domain,stat)
-	df.to_csv(fname,sep='\t')
+	if len(df) > 0: df.to_csv(fname,sep='\t')
 
 

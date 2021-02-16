@@ -5,7 +5,7 @@
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-10-21                       #
+# Last updated 2-16-21                       #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
@@ -150,20 +150,20 @@ if __name__ == "__main__":
 			print("Collapsing to {}-level:".format(collapse_var.split('.')[0] if collapse_var else 'file'))
 
 			collapse_name = collapse_var.split('.')[0] if collapse_var else 'file'
-			collapse_name = collapse_name + '.rpm' if calculate_rpm else collapse_name
+			stat_name = 'rpm.' + STAT if calculate_rpm else STAT
 
 			print("Normalizing to read average...")
 			data_reads = normalize_reads(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.reads.txt'.format(PROJECT, ASSAY, domain, STAT, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.reads.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
 			data_reads.to_csv(fname,sep='\t')
 
 			print("Normalizing to relative abundance...")
 			data_relabund = normalize_relabund(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.relabund.txt'.format(PROJECT, ASSAY, domain, STAT, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.relabund.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
 			data_relabund.to_csv(fname,sep='\t')
 
 			print("Normalizing to centered-log ratio (CLR)...")
 			data_clr = normalize_clr(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.clr.txt'.format(PROJECT, ASSAY, domain, STAT, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.clr.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
 			data_clr.to_csv(fname,sep='\t')
 
