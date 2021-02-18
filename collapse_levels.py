@@ -10,8 +10,7 @@
 ##############################################
 
 
-import os
-import sys
+import os, sys, argparse
 import pandas as pd
 import numpy as np
 
@@ -105,16 +104,46 @@ def normalize_rpm(df, meta, flagstats_var='flagstats.total'):
 	return df
 
 
+
+def create_parser():
+
+	parser = argparse.ArgumentParser(
+		description="""Parses the PathSeq output files from ./pathseq_out and
+		collates unambiguously-aligned reads for each taxa into an n x m table,
+		with n taxa (NCBI taxonomy ID) and m sequencing runs (UUIDs). This
+		table is saved to ./results/$project/$assay.""")
+
+	parser.add_argument('-p','--project', nargs='?', required=True,
+		help="""TCGA sequencing project (eg. COAD)""")
+	parser.add_argument('-a','--assay', nargs='?', required=True,
+		help="""TCGA experimental strategy (eg. WGS)""")
+	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous',
+		help="""Statistic to acquire from pathseq output. Options include
+		"unambiguous" (default), "score", "reads".""")
+	parser.add_argument('-d','--domain', nargs='?',default='bacteria',
+		help="""Domain or kingdom of interest. Options include:
+		"bacteria" (default), "archaea", "fungi", "viruses".""")
+	parser.add_argument('--prenormalize-rpm',action='store_true',default=False,
+		help="""Normalize to reads-per-million prior to collapsing & transforming data.""")
+
+	return parser
+
+
 if __name__ == "__main__":
 
 	domain = 'bacteria'
 	prenormalize_rpm = True # This was set to false for the manuscript
 
-	try:
-		PROJECT, ASSAY, STAT = sys.argv[1:]
-	except:
-		print("ERROR: Missing ASSAY and/or PROJECT")
-		exit(1)
+	parser = create_parser()
+	args = parser.parse_args()
+	print(args)
+
+	d = vars(args)
+	PROJECT = d['project']
+	ASSAY = d['assay']
+	DOMAIN = d['domain']
+	STAT = d['statistic']
+	prenormalize_rpm = d['prenormalize_rpm']
 
 	taxa = pd.read_csv('./taxonomy/taxa.all.txt',index_col=0,sep='\t')
 
@@ -125,14 +154,14 @@ if __name__ == "__main__":
 	DATA = pd.read_csv(fname,sep='\t',index_col=0)
 
 	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
-	META = pd.read_csv(fname,sep='\t',index_col=0)
+	META = pd.read_csv(fname,sep='\t',index_col=0, low_memory=False)
 
 	# Normalize within sample types
-	for tissue in ['solid','blood']:
+	for sample_type in ['tissue','blood']:
 
-		if tissue == 'blood':
+		if sample_type == 'blood':
 			ix_tissue = META.index[META['sample.Sample']=='BDN']
-		elif tissue == 'solid':
+		elif sample_type == 'tissue':
 			ix_tissue = META.index[META['sample.Sample'].isin(['PT','STN'])]
 
 		samples = np.intersect1d(DATA.columns, ix_tissue)
@@ -147,23 +176,23 @@ if __name__ == "__main__":
 		# Collapse to sample-, patient-, and file level
 		for collapse_var in ['sample.bcr_sample_barcode','case.bcr_patient_barcode','']:
 
-			print("Collapsing to {}-level:".format(collapse_var.split('.')[0] if collapse_var else 'file'))
+			print("\nCollapsing {} to {}-level:".format(sample_type,collapse_var.split('.')[0] if collapse_var else 'file'))
 
 			collapse_name = collapse_var.split('.')[0] if collapse_var else 'file'
-			stat_name = 'rpm.' + STAT if calculate_rpm else STAT
+			stat_name = 'rpm.' + STAT if prenormalize_rpm else STAT
 
 			print("Normalizing to read average...")
 			data_reads = normalize_reads(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.reads.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.reads.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
 			data_reads.to_csv(fname,sep='\t')
 
 			print("Normalizing to relative abundance...")
 			data_relabund = normalize_relabund(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.relabund.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.relabund.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
 			data_relabund.to_csv(fname,sep='\t')
 
 			print("Normalizing to centered-log ratio (CLR)...")
 			data_clr = normalize_clr(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.clr.txt'.format(PROJECT, ASSAY, domain, stat_name, tissue, collapse_name)
+			fname = './results/{}/{}/{}.{}.{}.{}.clr.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
 			data_clr.to_csv(fname,sep='\t')
 

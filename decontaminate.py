@@ -9,8 +9,7 @@
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
-import os
-import sys
+import os, sys, argparse
 import pandas as pd
 import numpy as np
 
@@ -83,6 +82,8 @@ def impute_mixtures(pct):
 	then impute using the center average. Since it primarily affects low-abundance
 	taxa, imputation does not have a significant affect on the full dataset.'''
 
+	print("\nImputing mixture fractions for missing data...")
+
 	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
 	meta = pd.read_csv(fname,index_col=0,sep='\t',low_memory=False)
 	meta = meta.loc[pct.columns]
@@ -107,7 +108,7 @@ def impute_mixtures(pct):
 
 		df_real = (~df_pct.isnull())
 
-		print(len(plates),'plates',len(centers),'centers')
+		print("Screening {} plates, {} centers for {}...".format(len(plates),len(centers),sample_type))
 
 		# Impute by plate
 		for plate in plates:
@@ -128,7 +129,6 @@ def impute_mixtures(pct):
 		df_pct = df_pct.apply(lambda x: x.fillna(nan_median(x[df_real.loc[x.name]],n=1)),axis=1)
 		# print("Final sparsity: {:.2f}%".format(100*df_pct.isnull().sum().sum()/len(df_pct.unstack())))
 		frames.append(df_pct)
-		print(df_pct.shape)
 
 	pct_imputed = pd.concat(frames,axis=1)
 
@@ -138,7 +138,7 @@ def impute_mixtures(pct):
 def predict_contaminants(PROJECT,assay,domain,stat, max_fdr=0.05, max_prev=0.2):
 	'''Classifies taxa as contamination (ctm) or tissue-resident (tss) using prevalence.'''
 
-	print("Classifying tissue-resident taxa from contaminants")
+	print("\nClassifying tissue-resident taxa from contaminants...")
 
 	fname = './prevalence/prevalence.{}.{}.{}.{}.txt'.format(PROJECT,assay,domain,stat)
 	df = pd.read_csv(fname,sep='\t',index_col=0)
@@ -150,45 +150,67 @@ def predict_contaminants(PROJECT,assay,domain,stat, max_fdr=0.05, max_prev=0.2):
 	return ix_ctm, ix_tss
 
 
+def create_parser():
+
+	parser = argparse.ArgumentParser(
+		description="""Parses the PathSeq output files from ./pathseq_out and
+		collates unambiguously-aligned reads for each taxa into an n x m table,
+		with n taxa (NCBI taxonomy ID) and m sequencing runs (UUIDs). This
+		table is saved to ./results/$project/$assay.""")
+
+	parser.add_argument('-p','--project', nargs='?', required=True,
+		help="""TCGA sequencing project (eg. COAD)""")
+	parser.add_argument('-a','--assay', nargs='?', required=True,
+		help="""TCGA experimental strategy (eg. WGS)""")
+	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous',
+		help="""Statistic to acquire from pathseq output. Options include
+		"unambiguous" (default), "score", "reads".""")
+	parser.add_argument('-d','--domain', nargs='?',default='bacteria',
+		help="""Domain or kingdom of interest. Options include:
+		"bacteria" (default), "archaea", "fungi", "viruses".""")
+
+	return parser
+
+
 
 if __name__ == "__main__":
+
+	parser = create_parser()
+	args = parser.parse_args()
+	print(args)
+
+	d = vars(args)
+	PROJECT = d['project']
+	ASSAY = d['assay']
+	DOMAIN = d['domain']
+	STAT = d['statistic']
 
 	# Use these parameters to classify taxa and estimate mixtures
 	assay_clf = 'WGS'
 	stat_clf = 'unambiguous'
 	level_clf = 'species'
 
-	# Apply classification to the following PROJECT, assay, domain, statistic
-	try:
-		PROJECT, ASSAY = sys.argv[1:]
-	except:
-		print("ERROR: Missing assay and/or PROJECT")
-		exit(1)
-
-	domain = 'bacteria'
-	stat = 'unambiguous'
-
-	print("Decontaminating the following dataset:")
-	print(PROJECT, ASSAY, stat)
-	print("Classification will be performed at the {} level using the following dataset:".format(level_clf))
+	print("\nDecontaminating the following dataset:")
+	print(PROJECT, ASSAY, STAT)
+	print("\nClassification will be performed at the <{}> level with the following dataset:".format(level_clf))
 	print(PROJECT, assay_clf, stat_clf)
 
 	# Load taxonomy data
 	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
 
 	# Load data to use for classification
-	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,assay_clf,domain,stat_clf)
+	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,assay_clf,DOMAIN,stat_clf)
 	data_clf = pd.read_csv(fname,sep='\t',index_col=0)
 
 	# Load data to classify
-	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,ASSAY,domain,stat)
+	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,ASSAY,DOMAIN,STAT)
 	data = pd.read_csv(fname,sep='\t',index_col=0)
 
 	# Classify tissue-resident vs. contaminant taxa
 	ix_ctm_clf, ix_tss_clf = predict_contaminants(
 			PROJECT,
 			assay_clf,
-			domain,
+			DOMAIN,
 			stat_clf
 	)
 
@@ -202,29 +224,29 @@ if __name__ == "__main__":
 	# Save mixtures and assocated fractions for both subpopulations
 	for sub_pop in ['decontam','contam']: 
 
-		print("Extracting subplopulation {}".format(sub_pop))
+		print("\nIsolating subpopulation '{}'...".format(sub_pop))
 
 		# Get species classified as tissue-resident (decontam) or contaminant (contam)
 		ix = {'decontam':ix_tss, 'contam':ix_ctm}[sub_pop]
 
 		# Use raw mixtures to compare tissue-resident vs. contamination fractions.
 		pct_raw = compute_mixture_fractions(data, ix, level_clf=level_clf)
-		fname = './mixtures/{}.{}.{}.{}.{}.raw.txt'.format(sub_pop,PROJECT,ASSAY,domain,stat_clf)
+		fname = './mixtures/{}.{}.{}.{}.{}.raw.txt'.format(sub_pop, PROJECT, ASSAY, DOMAIN, stat_clf)
 		pct_raw.to_csv(fname,sep='\t')
 
 		# Use raw mixtures to generate the subpopulation.
 		data_sub = extract_subpopulation(pct_raw, data, ix)
-		fname = './results/{}/{}/{}.{}.{}.raw.txt'.format(PROJECT, ASSAY, domain, stat, sub_pop)
+		fname = './results/{}/{}/{}.{}.{}.raw.txt'.format(PROJECT, ASSAY, DOMAIN, STAT, sub_pop)
 		data_sub.to_csv(fname,sep='\t')
 
 		# Use imputed mixtures to compare tissue-resident vs. contamination fractions.
 		pct_imputed = impute_mixtures(pct_raw)
-		fname = './mixtures/{}.{}.{}.{}.{}.imputed.txt'.format(sub_pop,PROJECT,assay_clf,domain,stat_clf)
+		fname = './mixtures/{}.{}.{}.{}.{}.imputed.txt'.format(sub_pop, PROJECT, assay_clf, DOMAIN, stat_clf)
 		pct_imputed.to_csv(fname,sep='\t')
 
 		# Use imputed mixtures to generate the subpopulation.
 		data_sub = extract_subpopulation(pct_imputed, data, ix)	
-		fname = './results/{}/{}/{}.{}.{}.txt'.format(PROJECT, ASSAY, domain, stat, sub_pop)
+		fname = './results/{}/{}/{}.{}.{}.txt'.format(PROJECT, ASSAY, DOMAIN, STAT, sub_pop)
 		data_sub.to_csv(fname,sep='\t')
 
-
+		print("Done.")
