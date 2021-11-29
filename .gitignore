@@ -1,6 +1,11 @@
+
+run_pipeline.sh
+projects.txt
+
 pathseq_out/*
 results/*
 mixtures/*
+collapsed/*
 prevalence/*
 
 manifests/*
