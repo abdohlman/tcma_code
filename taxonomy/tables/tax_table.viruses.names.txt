@@ -1,0 +1,1069 @@
+	superkingdom	phylum	subphylum	class	order	suborder	family	subfamily	genus	subgenus	species
+10298	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Simplexvirus		Human alphaherpesvirus 1
+10326	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Varicellovirus		Equid alphaherpesvirus 1
+10335	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Varicellovirus		Human alphaherpesvirus 3
+10353	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Simplexvirus		Saimiriine alphaherpesvirus 1
+10359	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Cytomegalovirus		Human betaherpesvirus 5
+10366	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Muromegalovirus		Murid betaherpesvirus 1
+10372	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Roseolovirus		Human betaherpesvirus 7
+10376	Viruses				Herpesvirales		Herpesviridae	Gammaherpesvirinae	Lymphocryptovirus		Human gammaherpesvirus 4
+10390	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Mardivirus		Gallid alphaherpesvirus 2
+10398	Viruses				Herpesvirales		Herpesviridae	Gammaherpesvirinae	Macavirus		Ovine gammaherpesvirus 2
+10455	Viruses						Baculoviridae		Alphabaculovirus		Spodoptera frugiperda multiple nucleopolyhedrovirus
+10677	Viruses				Caudovirales		Myoviridae		Muvirus		Escherichia virus Mu
+10678	Viruses				Caudovirales		Myoviridae		P1virus		Escherichia virus P1
+10679	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Escherichia virus P2
+10680	Viruses				Caudovirales						Enterobacteria phage P4
+10690	Viruses				Caudovirales		Myoviridae	Peduovirinae	Hp1virus		Haemophilus virus HP1
+10693	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Enterobacteria phage RB51
+10708	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus D3112
+10713	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage phi80
+10726	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus T5
+10742	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK022
+10754	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella virus P22
+10756	Viruses				Caudovirales		Podoviridae	Picovirinae	Phi29virus		Bacillus virus phi29
+10759	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage T3
+10760	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia virus T7
+10761	Viruses				Caudovirales		Podoviridae		P22virus		Shigella virus Sf6
+10845	Viruses						Microviridae	Bullavirinae	Alpha3microvirus		Escherichia virus St1
+10848	Viruses						Microviridae	Bullavirinae	Alpha3microvirus		Escherichia virus phiK
+10871	Viruses						Inoviridae				Pseudomonas virus Pf1
+11008	Viruses						Totiviridae		Totivirus		Saccharomyces cerevisiae virus L-A
+11137	Viruses				Nidovirales	Cornidovirineae	Coronaviridae	Orthocoronavirinae	Alphacoronavirus	Duvinacovirus	Human coronavirus 229E
+11292	Viruses	Negarnaviricota	Haploviricotina	Monjiviricetes	Mononegavirales		Rhabdoviridae		Lyssavirus		Rabies lyssavirus
+11552	Viruses	Negarnaviricota	Polyploviricotina	Insthoviricetes	Articulavirales		Orthomyxoviridae		Gammainfluenzavirus		Influenza C virus
+11676	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Lentivirus		Human immunodeficiency virus 1
+11757	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Betaretrovirus		Mouse mammary tumor virus
+11786	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Murine leukemia virus
+11788	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Abelson murine leukemia virus
+11809	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Moloney murine sarcoma virus
+11819	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Spleen focus-forming virus
+11830	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Murine osteosarcoma virus
+11834	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		RD114 retrovirus
+11855	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Betaretrovirus		Mason-Pfizer monkey virus
+11986	Viruses						Tombusviridae		Alphacarmovirus		Carnation mottle virus
+12167	Viruses				Tymovirales		Betaflexiviridae	Quinvirinae	Carlavirus		Potato virus M
+12169	Viruses				Tymovirales		Betaflexiviridae	Quinvirinae	Carlavirus		Potato virus S
+12172	Viruses				Tymovirales		Betaflexiviridae	Quinvirinae	Carlavirus		Shallot latent virus
+12177	Viruses				Tymovirales		Alphaflexiviridae		Potexvirus		Clover yellow mosaic virus
+12188	Viruses				Tymovirales		Alphaflexiviridae		Potexvirus		White clover mosaic virus
+12205	Viruses						Potyviridae		Potyvirus		Papaya ringspot virus
+12209	Viruses						Potyviridae		Potyvirus		Pepper mottle virus
+12216	Viruses						Potyviridae		Potyvirus		Potato virus Y
+12222	Viruses						Potyviridae		Potyvirus		Soybean mosaic virus
+12227	Viruses						Potyviridae		Potyvirus		Tobacco etch virus
+12232	Viruses						Potyviridae		Potyvirus		Zucchini yellow mosaic virus
+12239	Viruses						Virgaviridae		Tobamovirus		Pepper mild mottle virus
+12241	Viruses						Virgaviridae		Tobamovirus		Tobacco mild green mosaic virus
+12242	Viruses						Virgaviridae		Tobamovirus		Tobacco mosaic virus
+12253	Viruses						Virgaviridae		Tobamovirus		Tomato mosaic virus
+12263	Viruses				Picornavirales		Secoviridae	Comovirinae	Comovirus		Squash mosaic virus
+12282	Viruses				Picornavirales		Secoviridae	Comovirinae	Nepovirus		Tobacco ringspot virus
+12302	Viruses						Bromoviridae		Bromovirus		Brome mosaic virus
+12303	Viruses						Bromoviridae		Bromovirus		Cowpea chlorotic mottle virus
+12305	Viruses						Bromoviridae		Cucumovirus		Cucumber mosaic virus
+12313	Viruses						Bromoviridae		Cucumovirus		Peanut stunt virus
+12321	Viruses						Bromoviridae		Alfamovirus		Alfalfa mosaic virus
+12360	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 11
+12390	Viruses				Caudovirales		Siphoviridae				Lactococcus phage phiLC3
+12402	Viruses				Caudovirales		Myoviridae				Streptococcus phage EJ-1
+12407	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella virus PsP3
+12417	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage phiadh
+12433	Viruses				Tymovirales		Alphaflexiviridae		Allexivirus		Garlic virus A
+12451	Viruses								Idaeovirus		Raspberry bushy dwarf virus
+12657	Viruses				Herpesvirales		Herpesviridae	Gammaherpesvirinae	Percavirus		Equid gammaherpesvirus 2
+29252	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Escherichia virus 186
+31532	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus sk1
+31533	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus RB3
+31535	Viruses				Caudovirales		Siphoviridae		D3virus		Pseudomonas virus D3
+31537	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus virus c2
+31713	Viruses						Closteroviridae		Crinivirus		Lettuce infectious yellows virus
+31754	Viruses				Caudovirales		Siphoviridae				Lactococcus phage BK5-T
+32603	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Roseolovirus		Human betaherpesvirus 6A
+32604	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Roseolovirus		Human betaherpesvirus 6B
+35241	Viruses				Caudovirales		Siphoviridae				Lactococcus phage Tuc2009
+35250	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Mardivirus		Gallid alphaherpesvirus 3
+35269	Viruses						Hepadnaviridae		Orthohepadnavirus		Woodchuck hepatitis virus
+35281	Viruses						Virgaviridae		Tobamovirus		Paprika mild mottle virus
+35343	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Pseudomonas virus phiCTX
+35344	Viruses				Caudovirales		Siphoviridae				Streptococcus phage T12
+35345	Viruses				Caudovirales		Siphoviridae				Lactococcus phage TP901-1
+36343	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus virus bIL67
+37105	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage JCL1032
+37296	Viruses				Herpesvirales		Herpesviridae	Gammaherpesvirinae	Rhadinovirus		Human gammaherpesvirus 8
+37554	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK97
+39103	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage PL-1
+40631	Viruses				Caudovirales		Siphoviridae		N15virus		Escherichia virus N15
+43685	Viruses				Caudovirales		Siphoviridae				Lactococcus phage r1t
+45406	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus RB32
+45455	Viruses				Herpesvirales		Herpesviridae	Gammaherpesvirinae	Lymphocryptovirus		Macacine gammaherpesvirus 4
+45617	Viruses				Ortervirales		Retroviridae				Human endogenous retrovirus K
+47049	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Kluyvera virus Kvp1
+50948	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb49virus		Escherichia virus RB49
+51330	Viruses						Closteroviridae		Crinivirus		Cucurbit yellow stunting disorder virus
+51677	Viruses						Baculoviridae		Betabaculovirus		Xestia c-nigrum granulovirus
+52979	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage phig1e
+53369	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 80alpha
+55884	Viruses				Caudovirales		Myoviridae				Enterobacteria phage SfV
+59241	Viruses				Caudovirales		Siphoviridae				Streptococcus phage Dp-1
+59506	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 85
+63118	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus bIL170
+64186	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus virus Sfi21
+66284	Viruses				Caudovirales		Myoviridae				Shigella phage SfII
+67082	Viruses						Poxviridae	Chordopoxvirinae			BeAn 58058 virus
+67571	Viruses				Caudovirales		Podoviridae				Hamiltonella virus APSE1
+68887	Viruses						Anelloviridae				Torque teno virus
+69609	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Enterobacteria phage RB27
+71366	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage PVL
+72197	Viruses						Parvoviridae	Parvovirinae	Erythroparvovirus		Human erythrovirus V9
+72638	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus virus Sfi19
+73422	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus phage TP-J34
+77775	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Salmonella virus FelixO1
+78541	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus virus Sfi11
+83129	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus P008
+85154	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus virus O1205
+85454	Viruses				Tymovirales		Alphaflexiviridae		Potexvirus		Alternanthera mosaic virus
+90410	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus virus DT1
+93465	Viruses				Ortervirales		Retroviridae				Avian endogenous retrovirus EAV-HP
+93678	Viruses						Anelloviridae		Betatorquevirus		TTV-like mini virus
+99179	Viruses				Caudovirales		Siphoviridae				Bacteroides phage B40-8
+99182	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Murine leukemia-related retroviruses
+101570	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage ES18
+103216	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Escherichia virus Wphi
+103807	Viruses				Caudovirales		Myoviridae				Enterobacteria phage phiP27
+106284	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiETA
+107324	Viruses				Ortervirales		Caulimoviridae		Solendovirus		Tobacco vein clearing virus
+112023	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus virus 7201
+112227	Viruses				Tymovirales		Alphaflexiviridae		Potexvirus		Cactus virus X
+112229	Viruses				Tymovirales		Alphaflexiviridae		Potexvirus		Pepino mosaic virus
+113370	Viruses						Ascoviridae		Ascovirus		Spodoptera frugiperda ascovirus 1a
+114416	Viruses				Caudovirales		Siphoviridae				Lactococcus phage ul36
+115987	Viruses				Caudovirales		Myoviridae		Secunda5virus		Aeromonas virus 44RR2
+115991	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Escherichia virus RB43
+119910	Viruses						Solemoviridae		Sobemovirus		Ryegrass mottle virus
+120574	Viruses				Caudovirales		Siphoviridae				Streptococcus phage MM1
+129009	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus prophage phiPV83
+129862	Viruses										Phage Gifsy-2
+129951	Viruses						Adenoviridae		Mastadenovirus		Human mastadenovirus C
+130308	Viruses						Adenoviridae		Mastadenovirus		Human mastadenovirus E
+130309	Viruses						Adenoviridae		Mastadenovirus		Human mastadenovirus F
+130310	Viruses						Adenoviridae		Mastadenovirus		Human mastadenovirus D
+130478	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus phiSLT
+139871	Viruses				Caudovirales		Myoviridae				Lactobacillus prophage Lj771
+139872	Viruses				Caudovirales		Siphoviridae				Lactobacillus prophage Lj928
+146269	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage Lc-Nu
+146500	Viruses						Potyviridae		Potyvirus		Watermelon mosaic virus
+151534	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL311
+151535	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL285
+151536	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL286
+151537	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL309
+151538	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL310
+151539	Viruses				Caudovirales		Siphoviridae				Lactococcus phage bIL312
+151599	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage B3
+155148	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella virus HK620
+157239	Viruses				Caudovirales		Myoviridae	Peduovirinae	Hp1virus		Haemophilus virus HP2
+157924	Viruses				Caudovirales		Siphoviridae				Streptococcus phage SM1
+159150	Viruses	Negarnaviricota	Polyploviricotina	Ellioviricetes	Bunyavirales		Peribunyaviridae		Orthobunyavirus		Shamonda orthobunyavirus
+169683	Viruses				Caudovirales		Myoviridae		Phikzvirus		Pseudomonas virus phiKZ
+173443	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella virus ST64T
+175950	Viruses				Caudovirales		Myoviridae				Salmonella phage ST64B
+176652	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridescent virus 6
+180230	Viruses				Herpesvirales		Alloherpesviridae		Cyprinivirus		Cyprinid herpesvirus 3
+180504	Viruses				Caudovirales		Siphoviridae		E125virus		Burkholderia virus phiE125
+186152	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus phi12
+186153	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus virus 13
+186772	Viruses						Narnaviridae		Narnavirus		Saccharomyces 20S RNA narnavirus
+187764	Viruses				Caudovirales		Podoviridae	Autographivirinae	Sp6virus		Escherichia virus K1-5
+188763	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Cytomegalovirus		Panine betaherpesvirus 2
+194699	Viruses				Caudovirales		Podoviridae		Bpp1virus		Bordetella virus BPP1
+194701	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella virus Fels2
+196242	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage BP-4795
+196403	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Baboon endogenous virus
+197310	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus RB14
+198110	Viruses				Caudovirales		Myoviridae		Phikzvirus		Pseudomonas phage 201phi2-1
+198112	Viruses				Picornavirales		Iflaviridae		Iflavirus		Deformed wing virus
+198539	Viruses				Caudovirales		Siphoviridae				Streptococcus phage 315.2
+198540	Viruses				Caudovirales		Siphoviridae				Streptococcus phage 315.3
+198542	Viruses				Caudovirales						Streptococcus phage 315.5
+198543	Viruses				Caudovirales		Siphoviridae				Streptococcus phage 315.6
+205870	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium virus Bxz2
+205872	Viruses				Caudovirales		Siphoviridae	Chebruvirinae	Che9cvirus		Mycobacterium virus Che9c
+205879	Viruses				Caudovirales		Siphoviridae		Omegavirus		Mycobacterium virus Omega
+209529	Viruses				Picornavirales		Dicistroviridae		Cripavirus		Aphid lethal paralysis virus
+213769	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus 712
+213775	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus jj50
+215167	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus 3a
+221029	Viruses				Caudovirales		Podoviridae		P22virus		Enterobacteria phage ST104
+221915	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus K
+225979	Viruses				Caudovirales		Siphoviridae				Staphylococcus phage phiN315
+227720	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Yersinia phage phiA1122
+227940	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Yersinia virus L413C
+233894	Viruses				Caudovirales		Myoviridae		Secunda5virus		Aeromonas virus 25
+238854	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage S-PM2
+242527	Viruses				Caudovirales		Podoviridae		Bcep22virus		Burkholderia virus Bcep22
+243560	Viruses						Potyviridae		Potyvirus		Calla lily latent virus
+244310	Viruses				Caudovirales		Myoviridae		Bcep78virus		Burkholderia virus Bcep1
+247080	Viruses						Inoviridae				Ralstonia phage p12J
+255431	Viruses				Caudovirales		Siphoviridae				Klebsiella phage phiKO2
+259901	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus virus 77
+260149	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Aeromonas virus 65
+268746	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Prochlorococcus phage P-SSM2
+273133	Viruses				Caudovirales		Myoviridae		Elvirus		Pseudomonas virus EL
+277944	Viruses				Nidovirales	Cornidovirineae	Coronaviridae	Orthocoronavirinae	Alphacoronavirus	Setracovirus	Human coronavirus NL63
+279006	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Acinetobacter virus 133
+279303	Viruses				Caudovirales		Siphoviridae				Actinoplanes phage phiAsp2
+280701	Viruses				Caudovirales		Podoviridae		F116virus		Pseudomonas virus F116
+287412	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus Sl4
+292029	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus G1
+293644	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus SS3e
+298334	Viruses						Adenoviridae		Mastadenovirus		Simian mastadenovirus A
+298338	Viruses				Caudovirales		Myoviridae	Spounavirinae			Lactobacillus virus LP65
+306323	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus virus 2972
+307456	Viruses						Baculoviridae		Alphabaculovirus		Autographa californica multiple nucleopolyhedrovirus
+307898	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus phage 812
+317858	Viruses				Herpesvirales		Alloherpesviridae		Cyprinivirus		Cyprinid herpesvirus 1
+317878	Viruses				Herpesvirales		Alloherpesviridae		Cyprinivirus		Cyprinid herpesvirus 2
+320122	Viruses				Caudovirales		Myoviridae		Cd119virus		Clostridium virus phiCD119
+320831	Viruses										Staphylococcus phage PT1028
+320834	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 69
+320835	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 53
+320836	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage 2638A
+320837	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus 42e
+320839	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus 47
+320842	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 96
+320843	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage ROSA
+320844	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 71
+320845	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 55
+320846	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 29
+320847	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 52a
+320848	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 88
+320849	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 92
+320850	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus X2
+321023	Viruses				Caudovirales		Myoviridae		Secunda5virus		Aeromonas virus 31
+326036	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiETA2
+326037	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiETA3
+327387	Viruses						Virgaviridae		Tobamovirus		Tropical soda apple mosaic virus
+329381	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Escherichia virus RB16
+329864	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage SE1 (in:P22virus)
+333754	Viruses						Papillomaviridae	Firstpapillomavirinae	Alphapapillomavirus		Alphapapillomavirus 10
+333926	Viruses						Papillomaviridae	Firstpapillomavirinae	Gammapapillomavirus		Gammapapillomavirus 1
+334207	Viruses						Papillomaviridae	Firstpapillomavirinae	Betapapillomavirus		Betapapillomavirus 3
+337039	Viruses						Papillomaviridae	Firstpapillomavirinae	Alphapapillomavirus		Alphapapillomavirus 2
+337041	Viruses						Papillomaviridae	Firstpapillomavirinae	Alphapapillomavirus		Alphapapillomavirus 9
+337043	Viruses						Papillomaviridae	Firstpapillomavirinae	Alphapapillomavirus		Alphapapillomavirus 4
+337051	Viruses						Papillomaviridae	Firstpapillomavirinae	Betapapillomavirus		Betapapillomavirus 1
+338473	Viruses				Caudovirales		Podoviridae	Picovirinae			Actinomyces virus Av1
+340054	Viruses				Caudovirales		Podoviridae				Bacteriophage APSE-2
+344021	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage K1F
+344022	Viruses				Caudovirales		Podoviridae	Autographivirinae	Sp6virus		Escherichia virus K1E
+345195	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridescent virus 9
+345198	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridescent virus 22
+345199	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridescent virus 31
+345585	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridescent virus 30
+345922	Viruses				Caudovirales		Siphoviridae		Wbetavirus		Bacillus phage Fah
+347324	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage F10
+347328	Viruses				Caudovirales		Siphoviridae		Yuavirus		Pseudomonas virus M6
+347329	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus F8
+347962	Viruses				Caudovirales		Siphoviridae		Wbetavirus		Bacillus phage Gamma
+348058	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage epsilon34
+348137	Viruses				Caudovirales		Siphoviridae				Burkholderia phage Bcep176
+348604	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Enterobacteria phage T4 sensu lato
+354260	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P335 sensu lato
+354328	Viruses						Endornaviridae		Alphaendornavirus		Bell pepper alphaendornavirus
+359919	Viruses						Baculoviridae		Betabaculovirus		Spodoptera litura granulovirus
+359961	Viruses				Caudovirales		Siphoviridae		Wbetavirus		Bacillus virus Wbeta
+360398	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus virus 108PVL
+362693	Viruses						Endornaviridae		Alphaendornavirus		Oryza sativa alphaendornavirus
+364745	Viruses						Baculoviridae		Betabaculovirus		Choristoneura occidentalis granulovirus
+365048	Viruses				Caudovirales		Myoviridae		Svunavirus		Geobacillus virus GBSV1
+368735	Viruses						Virgaviridae		Tobamovirus		Bell pepper mottle virus
+369960	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Porcine type-C oncovirus
+374810	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Enterobacteria phage 933W sensu lato
+374840	Viruses						Microviridae	Bullavirinae	Phix174microvirus		Enterobacteria phage phiX174 sensu lato
+374844	Viruses						Microviridae	Bullavirinae	G4microvirus		Escherichia virus G4
+379329	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Stx2-converting phage 86
+379501	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiMR11
+381899	Viruses						Phycodnaviridae		Chlorovirus		Paramecium bursaria Chlorella virus A1
+386793	Viruses				Caudovirales		Podoviridae	Autographivirinae	Phikmvvirus		Pseudomonas virus LKA1
+387905	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage phiNM
+387908	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiNM2
+387909	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage phiNM3
+387910	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiNM4
+389469	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus DMS3
+393049	Viruses						Anelloviridae				Small anellovirus
+393598	Viruses				Caudovirales		Myoviridae	Peduovirinae	Hp1virus		Aeromonas virus phiO18P
+394036	Viruses						Potyviridae		Potyvirus		Narcissus degeneration virus
+396034	Viruses				Caudovirales		Myoviridae		Svunavirus		Bacillus virus 1
+397353	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus MP22
+398839	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus CNPH82
+399185	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus PH15
+403905	Viruses				Caudovirales		Siphoviridae				Streptococcus phage P9
+405947	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus 80
+406340	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Ralstonia virus RSA1
+413066	Viruses				Caudovirales		Siphoviridae				Streptococcus phage SMP
+413258	Viruses						Adenoviridae		Mastadenovirus		Simian adenovirus 8
+414970	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage cdtI
+424716	Viruses				Caudovirales		Siphoviridae		Pis4avirus		Salmonella phage Vi II-E1
+424944	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus SETP3
+424947	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus SETP7
+424949	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus SETP13
+425279	Viruses						Virgaviridae		Tobamovirus		Rehmannia mosaic virus
+430796	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage phi2958PVL
+432198	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK106
+432200	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK542
+432201	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK544
+442493	Viruses				Caudovirales		Myoviridae	Spounavirinae			Enterococcus virus phiEC24C
+444860	Viruses				Caudovirales		Myoviridae				Synechococcus phage S-SM2
+444861	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Prochlorococcus phage Syn1
+444862	Viruses				Caudovirales		Myoviridae				Prochlorococcus phage P-RSM4
+445515	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage tp310-1
+445516	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage tp310-2
+445517	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage tp310-3
+445684	Viruses				Caudovirales		Myoviridae				Synechococcus phage Syn19
+445696	Viruses				Caudovirales		Myoviridae				Prochlorococcus phage P-HM2
+445700	Viruses				Caudovirales		Myoviridae				Prochlorococcus phage P-HM1
+447909	Viruses				Caudovirales		Siphoviridae				Geobacillus virus E2
+448384	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb49virus		Escherichia virus phi1
+451705	Viruses				Caudovirales		Myoviridae				Enterobacteria phage phiEcoM-GJ1
+454798	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Cba120virus		Salmonella virus Det7
+459845	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus virus 858
+462590	Viruses				Caudovirales		Siphoviridae		Yuavirus		Pseudomonas virus Yua
+485724	Viruses	Negarnaviricota	Polyploviricotina	Ellioviricetes	Bunyavirales		Peribunyaviridae		Tospovirus		Melon severe mosaic tospovirus
+487152	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus phiMR25
+489828	Viruses						Microviridae	Bullavirinae	Alpha3microvirus		Enterobacteria phage WA13 sensu lato
+489829	Viruses						Microviridae	Bullavirinae	G4microvirus		Escherichia virus G4
+489830	Viruses						Baculoviridae		Betabaculovirus		Helicoverpa armigera granulovirus
+490913	Viruses				Caudovirales		Podoviridae				Sulfitobacter phage EE36phi1
+491003	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus EPS7
+493803	Viruses						Polyomaviridae		Alphapolyomavirus		Human polyomavirus 5
+494269	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus Bibb29
+496874	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage Lrm1
+504346	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage PAJU2
+505291	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus MP29
+505292	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus MP38
+529929	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Salmonella phage phiSG-JL2
+532074	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage BA14
+532075	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage EcoDS1
+532076	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage 13a
+536079	Viruses						Adenoviridae		Mastadenovirus		Human mastadenovirus G
+536444	Viruses				Caudovirales		Myoviridae				Cyanophage P-RSM1
+537874	Viruses				Caudovirales		Siphoviridae				Streptococcus phage PH15
+538398	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus PB1
+546805	Viruses				Caudovirales		Myoviridae				Mycobacterium phage Myrna
+549445	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus LBL3
+549446	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus LMA2
+551895	Viruses				Caudovirales		Myoviridae		Msw3virus		Iodobacteriophage phiPLPE
+557289	Viruses				Caudovirales		Myoviridae				Burkholderia phage KS10
+561996	Viruses				Caudovirales		Siphoviridae	Chebruvirinae	Brujitavirus		Mycobacterium virus Brujita
+563769	Viruses				Caudovirales		Siphoviridae				Stx2-converting phage 1717
+564886	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage YYZ-2008
+573591	Viruses				Caudovirales		Siphoviridae				Stenotrophomonas phage S1
+575610	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus virus IPLA35
+578234	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage Lv-1
+581037	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus 141
+582382	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus SN
+590739	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage g341c
+590745	Viruses				Ortervirales		Retroviridae	Orthoretrovirinae	Gammaretrovirus		Mus musculus mobilized endogenous polytropic provirus
+631345	Viruses						Solinviviridae		Invictavirus		Solenopsis invicta virus 3
+632112	Viruses				Caudovirales		Myoviridae	Spounavirinae			Lactobacillus virus Lb338-1
+633135	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus virus phiAbc2
+637730	Viruses				Caudovirales		Ackermannviridae	Aglimvirinae	Ag3virus		Shigella virus AG3
+641487	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P087
+644007	Viruses				Caudovirales		Siphoviridae				Streptococcus phage PH10
+644524	Viruses				Caudovirales		Podoviridae		Bcep22virus		Burkholderia virus Bcepil02
+646413	Viruses				Caudovirales		Siphoviridae				Streptococcus phage 5093
+648017	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage phiPVL-CN125
+663241	Viruses				Caudovirales		Siphoviridae				Enterococcus phage phiEf11
+665033	Viruses				Caudovirales		Myoviridae		Muvirus		Escherichia phage D108
+665883	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus CB13
+665884	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus CB14
+668618	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage P954
+669008	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacteria phage 285P
+673839	Viruses				Caudovirales		Siphoviridae				Enterococcus phage phiFL4A
+682370	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus virus ALQ132
+683172	Viruses						Astroviridae				Astrovirus MLB2
+683735	Viruses				Caudovirales		Myoviridae				Aggregatibacter phage S1249
+687340	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 1
+687341	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 2
+687342	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 3
+687343	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 4
+687345	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 6
+687346	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 7
+687347	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 8
+687349	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 10
+687351	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 12
+687353	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 14
+687354	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 15
+687355	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 16
+687358	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 19
+687365	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 26
+687366	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 27
+687367	Viruses						Anelloviridae		Alphatorquevirus		Torque teno virus 28
+687370	Viruses						Anelloviridae		Betatorquevirus		Torque teno mini virus 2
+687371	Viruses						Anelloviridae		Betatorquevirus		Torque teno mini virus 3
+687374	Viruses						Anelloviridae		Betatorquevirus		Torque teno mini virus 6
+687379	Viruses						Anelloviridae		Gammatorquevirus		Torque teno midi virus 1
+687380	Viruses						Anelloviridae		Gammatorquevirus		Torque teno midi virus 2
+687800	Viruses				Caudovirales		Myoviridae				Synechococcus phage S-RIM2
+693582	Viruses				Caudovirales		Podoviridae	Autographivirinae	Phikmvvirus		Pseudomonas phage phi-2
+694060	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Staphylococcus phage SA1
+699370	Viruses				Caudovirales		Myoviridae				Thermus phage TMA
+707757	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Klebsiella virus KP15
+711470	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium virus Redrock
+714583	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage ST160
+722755	Viruses						Bromoviridae		Ilarvirus		Lilac leaf chlorosis virus
+745088	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus 1A4
+746830	Viruses						Polyomaviridae		Deltapolyomavirus		Human polyomavirus 6
+746831	Viruses						Polyomaviridae		Deltapolyomavirus		Human polyomavirus 7
+749413	Viruses										Deep-sea thermophilic phage D6E
+749447	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus JG024
+754038	Viruses				Caudovirales		Myoviridae				Synechococcus phage S-CAM8
+754039	Viruses				Caudovirales		Myoviridae				Synechococcus phage S-IOM18
+754042	Viruses				Caudovirales		Siphoviridae				Synechococcus phage S-SKS1
+754051	Viruses				Caudovirales		Siphoviridae		Pis4avirus		Vibrio phage pYD38-A
+754059	Viruses				Caudovirales		Podoviridae	Autographivirinae			Synechococcus phage S-CBP4
+760732	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Acinetobacter phage Acj61
+764561	Viruses				Caudovirales		Siphoviridae				Brochothrix phage NF5
+764562	Viruses				Caudovirales		Siphoviridae				Brochothrix phage BL3
+857312	Viruses				Caudovirales		Myoviridae	Spounavirinae			Brochothrix phage A9
+867696	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Vi1virus		Salmonella virus ViI
+872294	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus SAP26
+874267	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage phi5967PVL
+876449	Viruses				Caudovirales		Podoviridae		P22virus		Enterobacteria phage UAB_Phi20
+881915	Viruses				Caudovirales		Podoviridae	Autographivirinae	Phikmvvirus		Pantoea virus Limelight
+889956	Viruses				Caudovirales		Myoviridae				Prochlorococcus phage MED4-213
+906668	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK75
+906669	Viruses				Caudovirales		Siphoviridae				Escherichia phage HK639
+908819	Viruses				Caudovirales		Myoviridae				Flavobacterium phage FCL-2
+909210	Viruses						Adenoviridae		Mastadenovirus		Simian mastadenovirus F
+925984	Viruses				Caudovirales		Myoviridae				Erwinia phage phiEt88
+926067	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Aeromonas phage PX29
+929814	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella phage RE-2010
+929833	Viruses				Caudovirales		Myoviridae				Rhizobium phage RR1-A
+930881	Viruses						Potyviridae		Potyvirus		Sweet potato virus C
+936054	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Enterobacteria phage VT2phi_272
+937835	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus PA1KOR
+938131	Viruses				Caudovirales		Siphoviridae		Che8virus		Mycobacterium virus Wee
+947843	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Erwinia phage ENT90
+947981	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage Sha1
+948870	Viruses				Caudovirales		Myoviridae				Enterobacteria phage phi92
+977801	Viruses				Caudovirales		Podoviridae	Picovirinae			Enterococcus phage EF62phi
+977927	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella virus SPC35
+979726	Viruses				Caudovirales		Podoviridae	Autographivirinae	Sp6virus		Enterobacteria phage UAB_Phi78
+981330	Viruses				Caudovirales		Siphoviridae				Tsukamurella phage TPA2
+984186	Viruses				Caudovirales		Myoviridae				Cronobacter phage ENT47670
+985782	Viruses						Mimiviridae				Moumouvirus
+994672	Viruses						Adenoviridae		Mastadenovirus		Platyrrhini mastadenovirus A
+1005056	Viruses				Caudovirales		Siphoviridae		Chivirus		Salmonella virus iEPS5
+1007127	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus phage Sb-1
+1007869	Viruses				Caudovirales		Myoviridae				Rhodococcus phage E3
+1026955	Viruses				Caudovirales		Myoviridae				Synechococcus phage S-CRM01
+1051631	Viruses				Caudovirales		Siphoviridae		Sfi21dt1virus		Streptococcus phage YMC-2011
+1051676	Viruses				Caudovirales		Myoviridae				Erwinia phage vB_EamM-Y2
+1054480	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage wV7
+1071503	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium virus Trixie
+1074044	Viruses						Inoviridae				uncultured phage WW-nAnB
+1076630	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage AnnaL29
+1079999	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage metaG-MbCM1
+1080237	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage phiPto-bp6g
+1090133	Viruses				Caudovirales		Podoviridae		P22virus		Enterobacteria phage IME10
+1091052	Viruses				Caudovirales		Ackermannviridae	Aglimvirinae	Limestonevirus		Dickeya virus Limestone
+1091556	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas virus LPB1
+1100043	Viruses										Apis mellifera filamentous virus
+1105171	Viruses				Caudovirales		Siphoviridae				Bacteroides phage B124-14
+1112008	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus AKFV33
+1115478	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus SE2
+1124654	Viruses				Caudovirales		Podoviridae		Epsilon15virus		Escherichia phage TL-2011b
+1127357	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage SPN9CC
+1127514	Viruses				Caudovirales		Myoviridae				Aeromonas phage vB_AsaM-56
+1129145	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage phi297
+1129146	Viruses				Caudovirales		Siphoviridae		D3virus		Pseudomonas virus PMG1
+1129147	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Klebsiella virus KP27
+1129194	Viruses				Caudovirales		Myoviridae				Xanthomonas phage vB_XveM_DIBBI
+1131316	Viruses										Rhodobacter phage RcapNL
+1136535	Viruses				Caudovirales		Podoviridae		Bcep22virus		Burkholderia virus DC1
+1141136	Viruses				Caudovirales		Myoviridae				Cronobacter phage vB_CsaM_GAP32
+1141138	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Cronobacter phage vB_CsaM_GAP161
+1141139	Viruses				Caudovirales		Podoviridae	Autographivirinae	Sp6virus		Enterobacteria phage vB_EcoP_ACG-C91
+1141519	Viruses				Caudovirales		Podoviridae	Autographivirinae			Escherichia phage phiKT
+1141625	Viruses						Astroviridae				Murine astrovirus
+1147042	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage StB12
+1147043	Viruses				Caudovirales		Siphoviridae				Staphylococcus phage StB20
+1147044	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage StB27
+1147140	Viruses				Caudovirales		Siphoviridae				Salmonella phage SPN3UB
+1147143	Viruses				Caudovirales		Siphoviridae		Hk97virus		Enterobacteria phage HK140
+1147144	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage HK225
+1147145	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK446
+1147146	Viruses				Caudovirales		Siphoviridae		Lambdavirus		Escherichia virus HK630
+1147147	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus HK633
+1147148	Viruses				Caudovirales		Siphoviridae		Lambdavirus		Escherichia virus HK629
+1147149	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage mEp043 c-1
+1147150	Viruses				Caudovirales		Siphoviridae		Hk97virus		Enterobacteria phage mEp235
+1147151	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage mEp237
+1147152	Viruses				Caudovirales		Siphoviridae				Enterobacteria phage mEp460
+1147153	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus mEpX1
+1147154	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus mEpX2
+1147156	Viruses				Caudovirales		Siphoviridae				Enterobacterial phage mEp213
+1147157	Viruses				Caudovirales		Siphoviridae		Hk97virus		Escherichia virus mEp234
+1147158	Viruses				Caudovirales		Siphoviridae		Hk97virus		Enterobacterial phage mEp390
+1150869	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Escherichia phage P13374
+1161903	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage MP42
+1161930	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus Lmd1
+1163482	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus Ent1
+1165134	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus virus ASCC191
+1165702	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage phi7401PVL
+1168548	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage vB_SemP_Emek
+1168549	Viruses				Caudovirales		Siphoviridae				Salmonella phage vB_SosS_Oslo
+1168563	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Stenotrophomonas phage Smp131
+1168612	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage SMSAP5
+1168613	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage TEM123
+1173769	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella phage FSL SP-004
+1175662	Viruses				Caudovirales		Siphoviridae		Septima3virus		Pseudomonas phage PaMx42
+1177632	Viruses				Caudovirales		Siphoviridae				Salmonella phage SSU5
+1187128	Viruses				Caudovirales		Myoviridae		Ap22virus		Acinetobacter virus AP22
+1188792	Viruses						Endornaviridae		Alphaendornavirus		Phaseolus vulgaris alphaendornavirus 1
+1188795	Viruses				Caudovirales		Podoviridae				Xanthomonas citri phage CP2
+1194641	Viruses				Caudovirales		Siphoviridae				Bacillus phage BtCS33
+1195068	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage StauST398-1
+1195071	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage StauST398-3
+1195085	Viruses				Caudovirales		Myoviridae		Spn3virus		Cronobacter phage CR5
+1195086	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage SA13
+1197952	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus IPLA5
+1197953	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus virus IPLA7
+1204178	Viruses				Caudovirales		Podoviridae		Una961virus		Helicobacter virus KHP40
+1204515	Viruses				Caudovirales		Siphoviridae		Che8virus		Mycobacterium virus Taj
+1204523	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Vi1virus		Escherichia virus ECML4
+1204528	Viruses				Caudovirales		Ackermannviridae	Aglimvirinae	Ag3virus		Salmonella virus SKML39
+1204537	Viruses				Caudovirales		Siphoviridae		Phicbkvirus		Caulobacter virus phiCbK
+1206110	Viruses				Caudovirales		Myoviridae				Lactobacillus phage phiAQ113
+1211417	Viruses										uncultured crAssphage
+1211640	Viruses				Caudovirales		Siphoviridae				Caulobacter phage CcrColossus
+1211641	Viruses				Caudovirales		Siphoviridae		Phicbkvirus		Caulobacter virus Karma
+1211642	Viruses				Caudovirales		Siphoviridae		Phicbkvirus		Caulobacter virus Magneto
+1211643	Viruses				Caudovirales		Siphoviridae		Phicbkvirus		Caulobacter virus Rogue
+1211644	Viruses				Caudovirales		Siphoviridae		Phicbkvirus		Caulobacter virus Swift
+1221835	Viruses				Caudovirales		Siphoviridae				Acinetobacter phage Bphi-B1251
+1223259	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD24
+1223260	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD30
+1223261	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD5
+1223262	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD88a
+1225789	Viruses				Caudovirales		Myoviridae				Enterobacteria phage SfI
+1225791	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage JBD18
+1225792	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage JBD25
+1229751	Viruses				Caudovirales		Siphoviridae				Lactococcus phage BM13
+1235645	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL010M04
+1235649	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL067M10
+1235689	Viruses				Caudovirales		Podoviridae				Pseudomonas phage AF
+1236000	Viruses				Caudovirales		Myoviridae		Msw3virus		Klebsiella phage JD001
+1239381	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiNJ2
+1262515	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus LN03
+1262516	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus LN04
+1262517	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus LN12
+1262518	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus LN25
+1262519	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus LN34
+1262520	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus LN6B
+1262521	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus LNTR3
+1262522	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Lmd1virus		Leuconostoc virus P793
+1262523	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc phage phiLNTR2
+1262532	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage BTCU-1
+1262533	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus phage 340
+1262535	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus phage jm2
+1262536	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus phage jm3
+1262537	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus phage P680
+1262538	Viruses				Caudovirales		Siphoviridae		Sk1virus		Lactococcus phage phi7
+1267169	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiBHN167
+1273712	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage JS01
+1273741	Viruses				Caudovirales		Siphoviridae		Andromedavirus		Bacillus virus Eoghan
+1277672	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage StauST398-2
+1278479	Viruses				Caudovirales		Myoviridae				Cyanophage S-RIM32
+1279082	Viruses				Caudovirales		Myoviridae		Cvm10virus		Pseudomonas phage PPpW-3
+1301279	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridovirus 22
+1301280	Viruses						Iridoviridae	Betairidovirinae	Iridovirus		Invertebrate iridovirus 25
+1305708	Viruses				Caudovirales		Siphoviridae				Clostridium phage vB_CpeS-CP51
+1307800	Viruses						Flaviviridae		Pegivirus		Pegivirus A
+1307804	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Escherichia phage Lw1
+1308896	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage StauST398-4
+1308897	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage StauST398-5
+1315956	Viruses				Caudovirales		Siphoviridae	Tunavirinae			Shigella phage pSf-1
+1325731	Viruses				Caudovirales		Podoviridae				Flavobacterium phage 6H
+1325963	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus L13
+1327771	Viruses				Caudovirales		Siphoviridae		Che8virus		Mycobacterium phage Job42
+1327772	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Jobu08
+1327773	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage PattyP
+1327985	Viruses				Caudovirales		Podoviridae				Cellulophaga phage phi46:3
+1330524	Viruses				Picornavirales		Picornaviridae		Salivirus		Salivirus A
+1340534	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus Jersey
+1340830	Viruses				Caudovirales		Siphoviridae	Bclasvirinae			Mycobacterium phage KayaCho
+1341019	Viruses						Parvoviridae	Parvovirinae			Parvovirus NIH-CQV
+1347760	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage SA12
+1352230	Viruses				Caudovirales						Thermus phage phi OH2
+1354511	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Anubis
+1357825	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Enterobacteria phage fiAA91-ss
+1385385	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus phage TP-778L
+1391190	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage MP48
+1391224	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Escherichia phage vB_EcoM_PhAPEC2
+1391702	Viruses						Virgaviridae		Tobamovirus		Tomato mottle mosaic virus
+1392231	Viruses				Caudovirales		Siphoviridae		Sfi11virus		Streptococcus phage 20617
+1399949	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage YMC/09/04/R1988
+1401669	Viruses				Caudovirales		Siphoviridae				Erwinia phage PhiEaH1
+1403390	Viruses				Caudovirales		Siphoviridae				Staphylococcus phage phiRS7
+1406788	Viruses				Caudovirales		Siphoviridae		Andromedavirus		Bacillus virus Riggi
+1406794	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Vi1virus		Salmonella virus Marshall
+1406795	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Vi1virus		Salmonella virus Maynard
+1407493	Viruses				Caudovirales		Myoviridae				Shigella phage SfIV
+1411095	Viruses				Caudovirales		Myoviridae		Cd119virus		Clostridium phage CDMH1
+1414655	Viruses	Negarnaviricota	Polyploviricotina	Ellioviricetes	Bunyavirales		Peribunyaviridae		Tospovirus		Pepper chlorotic spot virus
+1414736	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage J-1
+1414737	Viruses				Caudovirales		Siphoviridae				Rhizobium phage vB_RleS_L338C
+1415146	Viruses				Caudovirales		Podoviridae	Autographivirinae	Pradovirus		Xylella virus Prado
+1416334	Viruses				Caudovirales		Myoviridae				Lactobacillus phage phi jlb1
+1432856	Viruses				Picornavirales		Dicistroviridae				Formica exsecta virus 1
+1434323	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus HY01
+1436889	Viruses				Caudovirales		Podoviridae		Phieco32virus		Escherichia virus Septima11
+1445728	Viruses				Caudovirales		Siphoviridae		Che8virus		Mycobacterium phage Saal
+1445860	Viruses				Caudovirales		Myoviridae	Tevenvirinae	S16virus		Salmonella phage STP4-a
+1446489	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus FFH1
+1448273	Viruses				Caudovirales		Siphoviridae				Streptococcus phage DCC1738
+1448274	Viruses				Caudovirales		Siphoviridae				Streptococcus phage K13
+1448276	Viruses				Caudovirales		Siphoviridae				Streptococcus phage IC1
+1449437	Viruses										Pseudomonas phage vB_PaeP_Tr60_Ab31
+1449896	Viruses						Inoviridae				Uncultured phage WW-nAnB strain 2
+1449897	Viruses						Inoviridae				Uncultured phage WW-nAnB strain 3
+1450169	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage phi2
+1455075	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Citrobacter phage CR44b
+1458842	Viruses				Caudovirales		Siphoviridae				Geobacillus phage GBK2
+1458843	Viruses				Caudovirales		Myoviridae				Pseudomonas phage phiPsa374
+1458849	Viruses				Caudovirales		Ackermannviridae	Cvivirinae	Vi1virus		Salmonella virus SJ2
+1460070	Viruses						Inoviridae				Ralstonia phage 1 NP-2014
+1463809	Viruses				Caudovirales		Siphoviridae	Bclasvirinae			Mycobacterium phage 39HC
+1463811	Viruses				Caudovirales		Siphoviridae	Bclasvirinae			Mycobacterium phage Hosp
+1463812	Viruses				Caudovirales		Siphoviridae	Bclasvirinae			Mycobacterium phage Jolie1
+1464127	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage DW2
+1465613	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella phage vB_SenS-Ent3
+1465618	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella phage vB_SenS-Ent2
+1472342	Viruses						Papillomaviridae	Firstpapillomavirinae	Gammapapillomavirus		Gammapapillomavirus 15
+1474867	Viruses						Phycodnaviridae				Aureococcus anophagefferens virus
+1476886	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P078
+1476887	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P092
+1476888	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P118
+1476889	Viruses				Caudovirales		Siphoviridae				Lactococcus phage P162
+1477406	Viruses				Caudovirales		Ackermannviridae	Aglimvirinae	Limestonevirus		Dickeya virus RC2014
+1481224	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JD024
+1486428	Viruses				Caudovirales		Siphoviridae				Enterococcus phage EFC-1
+1493510	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage ACG-2014e
+1493511	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage ACG-2014f
+1493512	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage ACG-2014g
+1493513	Viruses				Caudovirales		Myoviridae	Tevenvirinae			Synechococcus phage ACG-2014i
+1498168	Viruses				Caudovirales		Myoviridae	Spounavirinae			Enterococcus phage ECP3
+1498170	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia phage PE3-1
+1498171	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage SA97
+1498220	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage phiSa119
+1505026	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage 3MRA
+1505027	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage 23MRA
+1510155	Viruses				Herpesvirales		Herpesviridae	Alphaherpesvirinae	Mardivirus		Columbid alphaherpesvirus 1
+1511900	Viruses						Parvoviridae	Parvovirinae	Erythroparvovirus		Primate erythroparvovirus 1
+1511908	Viruses						Parvoviridae	Parvovirinae	Protoparvovirus		Rodent protoparvovirus 1
+1513185	Viruses						Parvoviridae	Densovirinae	Ambidensovirus		Blattodean ambidensovirus 2
+1519999	Viruses				Caudovirales		Siphoviridae		Biseptimavirus		Staphylococcus phage phiBU01
+1522092	Viruses				Caudovirales		Myoviridae		Cd119virus		Clostridium phage phiCDHM19
+1524881	Viruses				Caudovirales		Podoviridae		P22virus		Enterobacteria phage Sf101
+1524882	Viruses				Caudovirales		Siphoviridae				Sinorhizobium phage phiLM21
+1526550	Viruses										Sulfitobacter phage NYA-2014a
+1527506	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia phage CICC 80001
+1527516	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage MarQuardt
+1527519	Viruses				Caudovirales		Myoviridae				Escherichia phage Av-05
+1527520	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Piro94
+1527524	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Citrobacter phage Miller
+1527531	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus HY02
+1527535	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Tiffany
+1530400	Viruses				Caudovirales		Podoviridae		Lit1virus		Pseudomonas phage Pa2
+1535290	Viruses						Anelloviridae		Betatorquevirus		Torque teno mini virus ALA22
+1536596	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage H70
+1536604	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus Ln8
+1536605	Viruses				Caudovirales		Siphoviridae	Mccleskeyvirinae	Una4virus		Leuconostoc virus Ln9
+1540094	Viruses				Caudovirales		Myoviridae	Ounavirinae	Mooglevirus		Citrobacter virus Moogle
+1540097	Viruses				Caudovirales		Podoviridae		Sp58virus		Escherichia virus Pollock
+1540099	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella virus Stitch
+1540823	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus LSPA1
+1541887	Viruses				Caudovirales		Siphoviridae		Chivirus		Salmonella virus Chi
+1542090	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas phage vB_Pae_PS44
+1542743	Viruses						Genomoviridae		Gemykrogvirus		Caribou associated gemykrogvirus 1
+1543201	Viruses				Caudovirales		Podoviridae	Autographivirinae	Sp6virus		Salmonella phage BP12B
+1543203	Viruses				Caudovirales		Siphoviridae		Chivirus		Salmonella phage BP12C
+1547495	Viruses				Picornavirales		Picornaviridae		Salivirus		Salivirus FHB
+1548907	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas phage vB_PaeM_PAO1_Ab27
+1548917	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus Ab28
+1548918	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage vB_PaeS_PAO1_Ab30
+1556290	Viruses				Caudovirales		Siphoviridae				Streptomyces phage Jay2Jay
+1560285	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Larenn
+1560342	Viruses				Caudovirales		Myoviridae				Acinetobacter phage YMC13/03/R2096
+1564096	Viruses				Caudovirales		Ackermannviridae				Erwinia virus Ea2809
+1566990	Viruses				Caudovirales		Siphoviridae				Streptococcus phage SpSL1
+1566995	Viruses				Caudovirales		Podoviridae		Lit1virus		Pseudomonas phage YH6
+1567006	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus DT57C
+1567472	Viruses				Caudovirales		Siphoviridae	Pclasvirinae	Fishburnevirus		Mycobacterium virus Malithi
+1567484	Viruses				Caudovirales		Myoviridae				Lactobacillus phage LfeInf
+1567486	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Enterobacteria phage P88
+1572712	Viruses				Caudovirales		Siphoviridae				Geobacillus virus E3
+1573458	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage PS-1
+1586713	Viruses						Phycodnaviridae		Prasinovirus		Yellowstone lake phycodnavirus 1
+1586714	Viruses						Phycodnaviridae		Prasinovirus		Yellowstone lake phycodnavirus 2
+1586715	Viruses						Phycodnaviridae		Prasinovirus		Yellowstone lake phycodnavirus 3
+1589733	Viruses				Caudovirales		Myoviridae				Cyanophage P-TIM40
+1592081	Viruses						Genomoviridae		Gemycircularvirus		Sewage-associated gemycircularvirus 1
+1592101	Viruses										Sewage-associated circular DNA virus-34
+1604355	Viruses				Caudovirales		Podoviridae		Phieco32virus		Escherichia virus ECB2
+1608440	Viruses										Chimeric virus 14
+1610872	Viruses				Caudovirales		Siphoviridae				Staphylococcus phage IME-SA4
+1619219	Viruses						Anelloviridae		Alphatorquevirus		Simian torque teno virus 31
+1619220	Viruses						Anelloviridae		Alphatorquevirus		Simian torque teno virus 32
+1629657	Viruses						Anelloviridae		Alphatorquevirus		Simian torque teno virus 34
+1629665	Viruses						Narnaviridae		Mitovirus		Botrytis cinerea mitovirus 2
+1633149	Viruses				Caudovirales		Siphoviridae		Phifelvirus		Enterococcus virus FL1
+1633150	Viruses				Caudovirales		Siphoviridae		Phifelvirus		Enterococcus virus FL2
+1633151	Viruses				Caudovirales		Siphoviridae		Phifelvirus		Enterococcus virus FL3
+1634488	Viruses						Genomoviridae		Gemykibivirus		Human associated gemykibivirus 3
+1636189	Viruses				Caudovirales		Podoviridae		Lit1virus		Pseudomonas phage YH30
+1636204	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage B166
+1636205	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage B236
+1636270	Viruses				Caudovirales		Podoviridae				Rhodoferax phage P26218
+1636313	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacter phage E-2
+1636314	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Enterobacter phage E-3
+1640970	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus DL60
+1640974	Viruses				Caudovirales		Myoviridae		Pbunavirus		Pseudomonas virus DL68
+1647300	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Luchador
+1647385	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Delftia phage IME-DE1
+1647411	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella phage NR01
+1647419	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL030
+1647421	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL055
+1647425	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL082
+1647426	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL085
+1647434	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PHL150
+1647455	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella phage SEN1
+1647458	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage SEN22
+1647463	Viruses				Caudovirales		Myoviridae				Salmonella phage SEN34
+1647465	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella phage SEN4
+1647466	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Salmonella phage SEN5
+1647469	Viruses				Caudovirales		Siphoviridae				Gordonia phage GAL1
+1649239	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Escherichia phage pro147
+1649240	Viruses				Caudovirales		Myoviridae	Peduovirinae	P2virus		Escherichia phage pro483
+1654740	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage BruceLethal
+1654780	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage Enoki
+1654781	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage Moyashi
+1654782	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage QueenBey
+1654919	Viruses				Caudovirales		Myoviridae				Pseudoalteromonas phage H101
+1654926	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage HY03
+1654928	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Jd18virus		Klebsiella virus PKO111
+1655305	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Escherichia phage APCEc01
+1655644	Viruses						Microviridae				Parabacteroides phage YZ-2015a
+1655645	Viruses						Microviridae				Parabacteroides phage YZ-2015b
+1659230	Viruses				Caudovirales		Siphoviridae		Septima3virus		Stenotrophomonas phage vB_SmaS-DLP
+1673887	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Citrobacter phage IME-CF2
+1674930	Viruses				Caudovirales		Siphoviridae		Triavirus		Staphylococcus phage vB_SauS_phi2
+1675607	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Klebsiella virus Matisse
+1690805	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PAC1
+1690817	Viruses				Caudovirales		Siphoviridae				Streptomyces phage SF1
+1690818	Viruses				Caudovirales		Siphoviridae				Streptomyces phage SF3
+1698357	Viruses				Caudovirales		Siphoviridae		Che8virus		Mycobacterium phage Dante
+1698360	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Jd18virus		Klebsiella virus JD18
+1698421	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage phiJB
+1701257	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae			Enterobacter phage phiEap-2
+1701404	Viruses						Microviridae	Gokushovirinae			Gokushovirinae GAIR4
+1701810	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Citrobacter phage Margaery
+1701811	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0004
+1701812	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0031
+1701813	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0131-1
+1701814	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0131-2
+1701824	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0460-1
+1701826	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0462
+1701827	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0468-1
+1701828	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0468-2
+1701830	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0468-4
+1701837	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0746
+1701842	Viruses				Caudovirales		Siphoviridae				Streptococcus phage phiARI0923
+1701853	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Serenity
+1715778	Viruses						Adenoviridae		Mastadenovirus		Simian mastadenovirus E
+1718278	Viruses				Caudovirales		Siphoviridae				Brucella phage BiPBO1
+1719140	Viruses				Caudovirales		Myoviridae				Klebsiella phage vB_KpnM_KB57
+1720494	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage slur02
+1720495	Viruses				Caudovirales		Myoviridae	Vequintavirinae	V5virus		Escherichia phage slur16
+1720498	Viruses				Caudovirales		Siphoviridae		Hk578virus		Escherichia phage slur05
+1720500	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage slur07
+1720501	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage slur08
+1729937	Viruses				Caudovirales		Myoviridae				Pseudomonas phage VCM
+1732063	Viruses				Caudovirales		Siphoviridae		Spbetavirus		Staphylococcus phage SPbeta-like
+1732064	Viruses				Caudovirales		Siphoviridae				Staphylococcus phage StB20-like
+1739607	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage CL1
+1739608	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage CL2
+1739609	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage iA2
+1739610	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage iLp84
+1739611	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage iLp1308
+1743016	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage vB_PaeS_PM105
+1747271	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium phage PA1-14
+1747326	Viruses				Caudovirales		Siphoviridae				Enterococcus phage vB_EfaS_IME197
+1754217	Viruses				Caudovirales		Myoviridae	Peduovirinae	Hp1virus		Pseudomonas phage phi3
+1755689	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage YMC11/02/R656
+1755692	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Pseudomonas phage PPPL-1
+1755695	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia phage vB_EcoP_GA2A
+1776177	Viruses						Endornaviridae		Alphaendornavirus		Cucumis melo alphaendornavirus
+1777052	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage JBD44
+1777053	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD69
+1777054	Viruses				Caudovirales		Siphoviridae		D3112virus		Pseudomonas phage JBD93
+1777064	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage YMC11/07/P54_PAE_BP
+1788294	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia phage LM33_P1
+1792222	Viruses				Caudovirales		Myoviridae		Ap22virus		Acinetobacter phage LZ35
+1792269	Viruses				Caudovirales		Siphoviridae		Phietavirus		Staphylococcus phage CNPx
+1792273	Viruses				Caudovirales		Podoviridae				Flavobacterium phage 2A
+1792274	Viruses										Flavobacterium phage Fpv1
+1805464	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Citrobacter phage SH1
+1810705	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage 118970_sal4
+1813613	Viruses				Picornavirales						Picornavirales Bu-3
+1813769	Viruses				Caudovirales		Siphoviridae		Pis4avirus		Salmonella phage 64795_sal3
+1813771	Viruses				Caudovirales		Myoviridae				Salmonella phage 118970_sal3
+1813779	Viruses				Caudovirales		Podoviridae		P22virus		Salmonella phage 103203_sal5
+1813781	Viruses				Caudovirales		Siphoviridae		Chivirus		Salmonella phage 118970_sal1
+1813782	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella virus 118970sal2
+1814280	Viruses										Flavobacterium phage Fpv10
+1814281	Viruses										Flavobacterium phage Fpv11
+1814282	Viruses										Flavobacterium phage Fpv2
+1814283	Viruses										Flavobacterium phage Fpv20
+1814284	Viruses										Flavobacterium phage Fpv3
+1814285	Viruses										Flavobacterium phage Fpv5
+1814286	Viruses										Flavobacterium phage Fpv6
+1814287	Viruses										Flavobacterium phage Fpv7
+1814288	Viruses										Flavobacterium phage Fpv8
+1814957	Viruses				Caudovirales		Siphoviridae				Streptococcus virus 9871
+1814958	Viruses				Caudovirales		Siphoviridae				Streptococcus virus 9872
+1814960	Viruses				Caudovirales		Siphoviridae				Streptococcus virus 9874
+1815510	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage PLE3
+1815511	Viruses				Caudovirales		Siphoviridae				Lactobacillus phage PLE2
+1815590	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage vB_EcoM-UFV13
+1815955	Viruses				Caudovirales		Siphoviridae				Lactococcus phage PLgT-1
+1815968	Viruses				Caudovirales		Myoviridae		P1virus		Salmonella phage SJ46
+1815969	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage Loser
+1815972	Viruses				Caudovirales		Siphoviridae		L5virus		Mycobacterium phage ArcherNM
+1821727	Viruses				Caudovirales		Siphoviridae	Pclasvirinae	Fishburnevirus		Mycobacterium phage Shipwreck
+1837842	Viruses				Caudovirales		Podoviridae	Autographivirinae	T7virus		Escherichia phage 64795_ec1
+1837867	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia phage UFV-AREG1
+1838062	Viruses				Caudovirales		Siphoviridae				Gordonia phage Blueberry
+1838138	Viruses				Caudovirales		Siphoviridae		Pfr1virus		Propionibacterium phage PFR2
+1843734	Viruses						Genomoviridae		Gemygorvirus		Mallard associated gemygorvirus 1
+1843740	Viruses						Genomoviridae		Gemycircularvirus		Chicken associated gemycircularvirus 1
+1843771	Viruses										Llama faeces associated circular DNA virus-1
+1846169	Viruses				Herpesvirales		Herpesviridae	Betaherpesvirinae	Roseolovirus		Macaca nemestrina herpesvirus 7
+1852625	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Jd18virus		Klebsiella phage vB_KpnM_KpV477
+1852629	Viruses				Caudovirales		Siphoviridae				Acinetobacter phage vB_AbaS_TRS1
+1857099	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella phage BPS11Q3
+1859149	Viruses						Anelloviridae		Betatorquevirus		Torque teno mini virus 18
+1862824	Viruses						Genomoviridae		Gemycircularvirus		Gemycircularvirus HV-GcV1
+1862958	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus phage D4410
+1862959	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus phage D4412
+1862960	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus phage M5938
+1862961	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus phage M6162
+1862962	Viruses				Caudovirales		Siphoviridae		C2virus		Lactococcus phage M6165
+1863007	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Shigella phage SHBML-50-1
+1863008	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Shigella phage SHFML-11
+1863009	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Shigella phage SHFML-26
+1863010	Viruses				Caudovirales		Siphoviridae		T5virus		Shigella phage SHSML-45
+1863011	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Shigella phage SHSML-52-1
+1864623	Viruses				Caudovirales		Podoviridae		Epsilon15virus		Enterobacter phage Tyrion
+1868170	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella phage MA12
+1868596	Viruses				Caudovirales		Siphoviridae				Pseudomonas phage MD8
+1871313	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Kp15virus		Citrobacter phage vB_CfrM_CfP1
+1871678	Viruses				Caudovirales		Siphoviridae				Lactococcus phage 28201
+1871681	Viruses				Caudovirales		Siphoviridae				Lactococcus phage 50101
+1871687	Viruses				Caudovirales		Siphoviridae				Lactococcus phage 63301
+1871690	Viruses				Caudovirales		Siphoviridae				Lactococcus phage 98201
+1873949	Viruses				Caudovirales		Podoviridae	Autographivirinae			Pseudomonas phage Andromeda
+1873959	Viruses				Caudovirales		Podoviridae	Autographivirinae			Pectobacterium phage PP90
+1873985	Viruses				Caudovirales		Siphoviridae		Pis4avirus		Salmonella phage IME207
+1873990	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia phage vB_EcoM_Alf5
+1883371	Viruses				Caudovirales		Myoviridae		Spn3virus		Erwinia phage vB_EamM_ChrisDB
+1883372	Viruses				Caudovirales		Myoviridae		Spn3virus		Erwinia phage vB_EamM_EarlPhillipIV
+1883374	Viruses				Caudovirales		Myoviridae		Spn3virus		Erwinia phage vB_EamM_Kwan
+1883377	Viruses				Caudovirales		Myoviridae		Spn3virus		Erwinia phage vB_EamM_Phobos
+1883379	Viruses				Caudovirales		Myoviridae		Spn3virus		Erwinia phage vB_EamM_Caitlin
+1887645	Viruses				Caudovirales		Siphoviridae		Smoothievirus		Gordonia phage Cucurbita
+1903266	Viruses						Pithoviridae				Cedratvirus A11
+1910936	Viruses				Caudovirales		Myoviridae		Agatevirus		Bacillus virus Bobb
+1910937	Viruses				Caudovirales		Myoviridae		Agatevirus		Bacillus virus Bp8pC
+1910969	Viruses						Microviridae	Bullavirinae	G4microvirus		Escherichia virus Talmos
+1911008	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	K1gvirus		Escherichia virus K1G
+1911010	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	K1gvirus		Escherichia virus K1H
+1913655	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Cc31virus		Enterobacter virus PG7
+1913656	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Cc31virus		Escherichia virus CC31
+1913657	Viruses				Caudovirales		Myoviridae	Tevenvirinae	S16virus		Salmonella virus STML198
+1913683	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Sp18virus		Escherichia virus VR7
+1913684	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Sp18virus		Escherichia virus VR20
+1913685	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Sp18virus		Escherichia virus VR25
+1913686	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Sp18virus		Escherichia virus VR26
+1913995	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Sp18virus		Shigella virus SP18
+1914155	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Escherichia virus HX01
+1914160	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Escherichia virus JS09
+1914161	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Escherichia virus RB69
+1914162	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb69virus		Shigella virus UTAM
+1914199	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus AR1
+1914200	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus Ime09
+1914201	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus E112
+1914202	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus ECML134
+1914204	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Escherichia virus C40
+1914205	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Shigella virus Shfl2
+1914206	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Shigella virus Pss1
+1914207	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Yersinia virus PST
+1914208	Viruses				Caudovirales		Myoviridae	Tevenvirinae	T4virus		Yersinia virus D1
+1914853	Viruses				Caudovirales		Myoviridae	Vequintavirinae	V5virus		Escherichia virus V5
+1914892	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Se1virus		Salmonella virus SE1
+1914893	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Se1virus		Salmonella virus SSE121
+1914897	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Cr3virus		Cronobacter virus CR3
+1914898	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Cr3virus		Cronobacter virus CR8
+1914899	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Cr3virus		Cronobacter virus CR9
+1918192	Viruses				Caudovirales		Siphoviridae		Cba181virus		Cellulophaga virus Cba181
+1918524	Viruses				Caudovirales		Podoviridae		Cba41virus		Cellulophaga virus Cba41
+1918525	Viruses				Caudovirales		Podoviridae		Cba41virus		Cellulophaga virus Cba172
+1918727	Viruses				Caudovirales		Myoviridae		Cvm10virus		Escherichia virus ep3
+1920754	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus G7C
+1920755	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus APEC7
+1920756	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus APEC5
+1920757	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus Bp4
+1920758	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus ECBP1
+1920759	Viruses				Caudovirales		Podoviridae		G7cvirus		Escherichia virus IME11
+1920761	Viruses				Caudovirales		Podoviridae		G7cvirus		Shigella virus Sb1
+1920765	Viruses				Caudovirales		Podoviridae		Lit1virus		Pseudomonas virus Ab09
+1920861	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Kp36virus		Klebsiella virus KP36
+1920862	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Kp36virus		Klebsiella virus 1513
+1921004	Viruses				Caudovirales		Siphoviridae	Tunavirinae	T1virus		Escherichia virus ADB2
+1921005	Viruses				Caudovirales		Siphoviridae	Tunavirinae	T1virus		Shigella virus PSf2
+1921008	Viruses				Caudovirales		Siphoviridae	Tunavirinae	T1virus		Escherichia virus T1
+1921017	Viruses				Caudovirales		Myoviridae		Nit1virus		Bacillus virus Grass
+1921018	Viruses				Caudovirales		Myoviridae		Nit1virus		Bacillus virus NIT1
+1921019	Viruses				Caudovirales		Myoviridae		Nit1virus		Bacillus virus SPG24
+1921118	Viruses				Caudovirales		Siphoviridae		Nonagvirus		Escherichia virus 9g
+1921119	Viruses				Caudovirales		Siphoviridae		Nonagvirus		Escherichia virus JenK1
+1921120	Viruses				Caudovirales		Siphoviridae		Nonagvirus		Escherichia virus JenP1
+1921121	Viruses				Caudovirales		Siphoviridae		Nonagvirus		Escherichia virus JenP2
+1921123	Viruses				Caudovirales		Siphoviridae		Nonanavirus		Salmonella virus 9NA
+1921545	Viruses				Caudovirales		Siphoviridae		Septima3virus		Pseudomonas virus 73
+1921546	Viruses				Caudovirales		Siphoviridae		Septima3virus		Pseudomonas virus Kakheti25
+1921547	Viruses				Caudovirales		Siphoviridae		Septima3virus		Pseudomonas virus Ab26
+1921548	Viruses				Caudovirales		Siphoviridae		Septima3virus		Burkholderia virus KL1
+1922246	Viruses				Caudovirales		Siphoviridae		Sextaecvirus		Staphylococcus virus Sextaec
+1922247	Viruses				Caudovirales		Siphoviridae		Sextaecvirus		Staphylococcus virus SEP9
+1922770	Viruses										Changjiang crawfish virus 6
+1923133	Viruses										Hubei picorna-like virus 51
+1924729	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus JD7
+1924730	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus SA12
+1924731	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus P108
+1924732	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus G15
+1924733	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus MCE2014
+1924734	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus S253
+1930269	Viruses						Tombusviridae		Panicovirus		Bermuda grass latent virus
+1930509	Viruses				Picornavirales				Husavirus		Husavirus sp.
+1945565	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Rtpvirus		Escherichia virus ACGM12
+1945575	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella virus Shivani
+1945589	Viruses						Microviridae	Bullavirinae	Alpha3microvirus		Escherichia virus alpha3
+1954380	Viruses				Caudovirales		Siphoviridae		Hk578virus		Sodalis virus SO1
+1962299	Viruses						Adenoviridae		Mastadenovirus		Simian mastadenovirus B
+1965376	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus EC6
+1965378	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus AYO145A
+1965379	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus JH2
+1965382	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus VpaE1
+1965383	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Salmonella virus UAB87
+1965384	Viruses				Caudovirales		Myoviridae	Ounavirinae	Ea214virus		Erwinia virus Ea214
+1965385	Viruses				Caudovirales		Myoviridae	Ounavirinae	Felixo1virus		Escherichia virus wV8
+1972577	Viruses	Negarnaviricota	Haploviricotina	Monjiviricetes	Mononegavirales		Rhabdoviridae		Vesiculovirus		Indiana vesiculovirus
+1977297	Viruses						Inoviridae		Habenivirus		Ralstonia virus RSM1
+1977298	Viruses						Inoviridae		Habenivirus		Ralstonia virus RSM3
+1977299	Viruses						Inoviridae		Habenivirus		Ralstonia virus RS603
+1977411	Viruses						Inoviridae				Escherichia virus If1
+1980926	Viruses				Caudovirales		Myoviridae		Rsl2virus		Ralstonia virus RSF1
+1980931	Viruses				Caudovirales		Myoviridae		Sep1virus		Staphylococcus virus IPLAC1C
+1980941	Viruses				Caudovirales		Myoviridae		Msw3virus		Edwardsiella virus MSW3
+1980942	Viruses				Caudovirales		Myoviridae		Msw3virus		Edwardsiella virus PEi21
+1980943	Viruses				Caudovirales		Myoviridae		Muvirus		Shigella virus SfMu
+1980959	Viruses				Caudovirales		Myoviridae	Tevenvirinae	Rb49virus		Escherichia virus JSE
+1980960	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Cr3virus		Cronobacter virus PBES02
+1980961	Viruses				Caudovirales		Myoviridae	Vequintavirinae	Cr3virus		Pectobacterium virus phiTE
+1980962	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus Rodi
+1980964	Viruses				Caudovirales		Myoviridae	Spounavirinae	Kayvirus		Staphylococcus virus S25-4
+1981027	Viruses				Caudovirales		Siphoviridae		Hk578virus		Escherichia virus EK99P1
+1981032	Viruses				Caudovirales		Siphoviridae	Guernseyvirinae	Jerseyvirus		Salmonella virus f18SE
+1981041	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Kp36virus		Klebsiella virus KLPN1
+1981042	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Kp36virus		Klebsiella virus PKP126
+1981043	Viruses				Caudovirales		Siphoviridae	Tunavirinae	Kp36virus		Klebsiella virus Sushi
+1981048	Viruses				Caudovirales		Siphoviridae		Yuavirus		Pseudomonas virus PAE1
+1981049	Viruses				Caudovirales		Siphoviridae		Yuavirus		Pseudomonas virus MP1412
+1981160	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Escherichia virus 24B
+1981161	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Escherichia virus 933W
+1981162	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Escherichia virus Min27
+1981164	Viruses				Caudovirales		Podoviridae	Sepvirinae	Nona33virus		Escherichia virus Stx2 II
+1981165	Viruses				Caudovirales		Podoviridae	Sepvirinae	Pocjvirus		Shigella virus 7502Stx
+1981166	Viruses				Caudovirales		Podoviridae	Sepvirinae	Pocjvirus		Shigella virus POCJ13
+1981167	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Escherichia virus 191
+1981168	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Escherichia virus PA2
+1981169	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Escherichia virus TL2011
+1981170	Viruses				Caudovirales		Podoviridae	Sepvirinae	Tl2011virus		Shigella virus VASD
+1982090	Viruses				Caudovirales		Siphoviridae		Mudcatvirus		Arthrobacter virus Mudcat
+1982096	Viruses				Caudovirales		Siphoviridae		Ab18virus		Pseudomonas virus Ab18
+1982098	Viruses				Caudovirales		Siphoviridae		Ab18virus		Pseudomonas virus PaMx11
+1982240	Viruses				Caudovirales		Siphoviridae		Np1virus		Pseudomonas virus NP1
+1982252	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus ATCC29399BC
+1982253	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus ATCC29399BT
+1982254	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Attacne
+1982256	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Kubed
+1982257	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Lauchelly
+1982258	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus MrAK
+1982259	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Ouroboros
+1982260	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P91
+1982261	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P105
+1982262	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P144
+1982263	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P1001
+1982264	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P1.1
+1982265	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P100A
+1982266	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P100D
+1982267	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P101A
+1982268	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus P104A
+1982269	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PA6
+1982270	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Pacnes201215
+1982271	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PAD20
+1982272	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PAS50
+1982273	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL009M11
+1982274	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL025M00
+1982276	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL041M10
+1982277	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL060L00
+1982279	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL070N00
+1982280	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL071N05
+1982282	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL092M00
+1982283	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL095N00
+1982284	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL111M01
+1982285	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL112N00
+1982286	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL113M01
+1982287	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL114L00
+1982288	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL116M00
+1982291	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL132N00
+1982292	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL141N00
+1982295	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL152M00
+1982297	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL171M01
+1982298	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL179M00
+1982300	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL199M00
+1982301	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus PHL301M00
+1982303	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Pirate
+1982304	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Procrass1
+1982305	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus SKKY
+1982306	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Solid
+1982307	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Stormborn
+1982308	Viruses				Caudovirales		Siphoviridae		Pa6virus		Propionibacterium virus Wizzo
+1982357	Viruses				Caudovirales		Siphoviridae		Pamx74virus		Pseudomonas virus PaMx28
+1982358	Viruses				Caudovirales		Siphoviridae		Pamx74virus		Pseudomonas virus PaMx74
+1982368	Viruses				Caudovirales		Siphoviridae		Pepy6virus		Rhodococcus virus Pepy6
+1982369	Viruses				Caudovirales		Siphoviridae		Pepy6virus		Rhodococcus virus Poco6
+1982555	Viruses				Caudovirales		Siphoviridae		Send513virus		Mycobacterium virus Papyrus
+1982564	Viruses				Caudovirales		Siphoviridae		T5virus		Escherichia virus slur09
+1982565	Viruses				Caudovirales		Siphoviridae		T5virus		Salmonella virus 118970sal2
+1982575	Viruses				Caudovirales		Siphoviridae		Titanvirus		Rhodobacter virus RcTitan
+1982577	Viruses				Caudovirales		Podoviridae		Ea92virus		Erwinia virus Ea9-2
+1982578	Viruses				Caudovirales		Podoviridae		Ea92virus		Erwinia virus Frozen
+1982579	Viruses				Caudovirales		Podoviridae		Epsilon15virus		Escherichia virus phiV10
+1982580	Viruses				Caudovirales		Podoviridae		Epsilon15virus		Salmonella virus Epsilon15
+1982581	Viruses				Caudovirales		Podoviridae		Epsilon15virus		Salmonella virus SPN1S
+1982746	Viruses				Caudovirales		Siphoviridae		Ydn12virus		Streptomyces virus TP1604
+1982747	Viruses				Caudovirales		Siphoviridae		Ydn12virus		Streptomyces virus YDN12

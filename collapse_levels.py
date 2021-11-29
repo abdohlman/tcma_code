@@ -1,25 +1,134 @@
-#!/bin/bash python
+#!/bin/env/bash python
 
-# USAGE: python collapse_levels.py $project $assay $statistic
+# USAGE: python collapse_levels.py -p $project -a $assay
 
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-16-21                       #
+# Last updated 11-29-21                      #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
 
-import os, sys, argparse
+import os, argparse
 import pandas as pd
 import numpy as np
 
 from skbio.stats.composition import clr
 
 
-def normalize_reads(df, meta, collapse_var=''):
-	''''Normalize reads using geometric mean'''
+def main():
+
+	# Normalize within sample types
+	for sample_type in ['tissue','blood']:
+
+		if sample_type == 'blood':
+			ix_tissue = META.index[META['sample.Sample']=='BDN']
+		elif sample_type == 'tissue':
+			ix_tissue = META.index[META['sample.Sample'].isin(['PT','STN'])]
+
+		samples = np.intersect1d(DATA.columns, ix_tissue)
+
+		# data = DATA[samples].fillna(0)
+		# meta = META.loc[samples]
+
+		# Collapse to sample-, patient-, and file level
+		for collapse_var in ['sample.bcr_sample_barcode','case.bcr_patient_barcode','']: #,'']:
+
+			data = DATA[samples].fillna(0.0)
+			meta = META.loc[samples]
+
+			print("\nCollapsing {} to {}-level:".format(sample_type,collapse_var.split('.')[0] if collapse_var else 'file'))
+
+			collapse_name = collapse_var.split('.')[0] if collapse_var else 'file'
+			# stat_name = 'rpm.' + STAT if prenormalize_rpm else STAT
+			reads_tag = 'reads' if no_rpm else 'rpm'
+
+			print("Normalizing to read average...")
+			data_reads = collapse_reads(data, meta, collapse_var=collapse_var, use_rpm=no_rpm is False)
+			fname = '{}/{}.{}.{}.{}.{}.txt'.format(OUTPUT_DIR, domain, STAT, sample_type, collapse_name, reads_tag)
+			print("Writing to",fname)
+			data_reads.to_csv(fname,sep='\t')
+			print('\t',data_reads.shape)
+
+			print(data_reads.head())
+
+			print("Normalizing to relative abundance...")
+			data_relabund = collapse_relabund(data, meta, collapse_var=collapse_var, use_rpm=no_rpm is False)
+			fname = '{}/{}.{}.{}.{}.{}.relabund.txt'.format(OUTPUT_DIR, domain, STAT, sample_type, collapse_name, reads_tag)
+			print("Writing to",fname)
+			data_relabund.to_csv(fname,sep='\t')
+			print('\t',data_relabund.shape)
+
+			print(data_relabund.head())
+
+			print("Normalizing to centered-log ratio (CLR)...")
+			data_clr = collapse_clr(data, meta, collapse_var=collapse_var, use_rpm=no_rpm is False, min_prev=min_clr_prev)
+			fname = '{}/{}.{}.{}.{}.{}.clr.txt'.format(OUTPUT_DIR, domain, STAT, sample_type, collapse_name, reads_tag)
+			print("Writing to",fname)
+			data_clr.to_csv(fname,sep='\t')
+			print('\t{}'.format(data_clr.shape))
+
+			print(data_clr.head())
+
+
+def normalize_rpm(df, meta, collapse_var=''):
+	'''	Normalizes by total reads. If collapsing, sum counts and 
+	total reads across samples.
+		V = (c_1 + ... + c_N)/(t_1 + ... + t_N)
+		c_i = counts in sample i
+		t_i = total reads in sample i
+		N = number of items to collapse
+	'''
+	df = df.transpose()
+	df = df.join(READS)
 	if collapse_var:
+		df = df.join(meta[collapse_var]).groupby(collapse_var).sum()
+	df = 1e6*df.divide(df.PRIMARY_READS, axis=0).drop(columns='PRIMARY_READS')
+	df = df.transpose()
+
+	# print("Normalized rpm")
+	# print(df.head())
+
+	return df
+
+
+def normalize_relabund(df):
+	'''Normalizes samples to relative abundance with each taxonomic rank.'''
+
+	ranked_otus = []
+	for taxon in taxtable.columns:
+		otus = np.intersect1d(taxtable[taxon].unique(), df.index)
+		if len(otus) == 0: continue
+		df.loc[otus] = df.loc[otus].divide(df.loc[otus].sum())
+		ranked_otus += list(otus)
+
+	df = df.loc[ranked_otus]
+
+	return df
+
+
+def normalize_clr(df):
+	'''Normalizes samples to centered log-ratio (CLR) with each taxonomic rank.'''
+
+	ranked_otus = []
+	for taxon in taxtable.columns: 
+		otus = np.intersect1d(taxtable[taxon].unique(), df.index)
+		if len(otus) == 0: continue
+		df.loc[otus] = df.loc[otus].apply(clr,1,result_type='broadcast') #broadcast=True)#result_type='broadcast')
+		ranked_otus += list(otus)
+
+	df = df.loc[ranked_otus]
+
+	return df
+
+
+def collapse_reads(df, meta, collapse_var='', use_rpm=True):
+	''''Average read counts using geometric mean'''
+
+	if use_rpm:
+		df = normalize_rpm(df, meta, collapse_var)
+	elif collapse_var:
 		df = df.transpose()
 		df = np.log10(df.fillna(0.0) + 1)
 		df = df.join(meta[collapse_var])
@@ -28,81 +137,68 @@ def normalize_reads(df, meta, collapse_var=''):
 		df = df.transpose() 
 
 	df = df.fillna(0.0)
+
 	return df
 
 
-
-def normalize_relabund(df, meta, collapse_var=''):
+def collapse_relabund(df, meta, collapse_var='',use_rpm=True):
 	'''Normalizes dataset to sample-wise relative abundance, such that
-	the sum of all taxa of a given rank is equal to 1 for all samples.'''
+	the sum of all taxa of a given rank is equal to 1 for all samples.
+		V = c_1/Sum_1 + ... + c_N/Sum_N
+		c_i := counts in sample i
+		Sum_i := sum of reads in sample i for a given rank
+		N := number of items to collapse
+	'''
 
-	df = df.fillna(0.0)
+	if use_rpm:
+		df = normalize_rpm(df, meta, collapse_var)
 
-	for taxon in taxtable.columns:
+	elif collapse_var:
 
-		otus = np.intersect1d(taxtable[taxon].unique(), df.index)
-		if len(otus) == 0: continue
+		df = normalize_relabund(df)
+		df = df.transpose()
+		df = df.join(meta[collapse_var])
+		df = df.groupby(collapse_var).sum()
+		df = df.transpose()
 
-		df.loc[otus] = df.loc[otus].divide(df.loc[otus].sum())
-
-	if collapse_var:
-		df = collapse_relabund(df, meta, collapse_var=collapse_var)
+	df = normalize_relabund(df)
 
 	df = df.fillna(0.0)
 
 	return df
 
 
-def normalize_clr(df, meta, collapse_var='', min_prev=0.25):
-	'''Applies the centered log-ratio transform to the dataset. This
-	maps relative abundances to a continuous, normally-distributed
-	distribution.'''
+def collapse_clr(df, meta, collapse_var='',use_rpm=True, min_prev=0.25):
+	'''Collapse by relative abundance then calculate CLR.'''
 
 	keep_otus = [ otu for otu in df.index if sum(df.loc[otu] > 0) > min_prev*len(df.columns) ]
 
 	df = df.loc[keep_otus]
-	df = df.fillna(0.0) + 0.1 # Ensure no zeros
+	df = df.fillna(0.0) + 0.01 # pseudocount
 
-	if collapse_var:
-		df = collapse_relabund(df, meta, collapse_var=collapse_var)
-		df = normalize_relabund(df, meta)
+	if use_rpm:
+		df = normalize_rpm(df, meta, collapse_var)
+		df = normalize_relabund(df)
 
-	for taxon in taxtable.columns: 
-		otus = np.intersect1d(taxtable[taxon].unique(), df.index)
-		if len(otus) == 0: continue
+	elif collapse_var:
+		df = collapse_relabund(df, meta, collapse_var, use_rpm)
 
-		df.loc[otus] = df.loc[otus].apply(clr,1,result_type='broadcast') #broadcast=True)#result_type='broadcast')
-
-	return df
-
-
-def collapse_relabund(df,meta,collapse_var='sample.bcr_sample_barcode'):
-	''''Normalize to relative abundance after summing by collapse_var.'''
-
-	df = df.transpose().fillna(0.0)
-	df = df.join(meta[collapse_var])
-	df = df.groupby(collapse_var).sum()
-	df = df.transpose()
-	df = normalize_relabund(df, meta)
-	return df
-
-
-def normalize_rpm(df, meta, flagstats_var='flagstats.total'):
-	'''Normalize to reads per million, calculated according to total sequencing reads
-	as measured using samtools flagstats.'''
-
-	read_counts = meta[flagstats_var]
-
-	for center in meta['aliquot.center_name'].unique():
-		ix_center = meta.index[meta['aliquot.center_name']==center]
-		ix_nan = read_counts.index[read_counts.isna()]
-		ix_impute = np.intersect1d(ix_center,ix_nan)   
-		read_counts.loc[ix_impute] = read_counts.loc[ix_center].median()
-
-	df = 1e6*df.divide(read_counts,axis=1)
+	df = normalize_clr(df)
 
 	return df
 
+
+def get_total_reads():
+	'''Get read statistics.'''
+
+	fpath = '{}/read_statistics.txt'.format(RESULTS_DIR)
+	df_reads = pd.read_table(fpath, index_col=0)
+	read_counts = df_reads['PRIMARY_READS']
+
+	assert sum(read_counts.isna()) == 0
+	assert read_counts.min() > 0
+
+	return read_counts
 
 
 def create_parser():
@@ -115,16 +211,25 @@ def create_parser():
 
 	parser.add_argument('-p','--project', nargs='?', required=True,
 		help="""TCGA sequencing project (eg. COAD)""")
+
 	parser.add_argument('-a','--assay', nargs='?', required=True,
 		help="""TCGA experimental strategy (eg. WGS)""")
-	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous',
+
+	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous.decontam',
 		help="""Statistic to acquire from pathseq output. Options include
-		"unambiguous" (default), "score", "reads".""")
+		"unambiguous.decontam" (default), "score", "reads".""")
+
 	parser.add_argument('-d','--domain', nargs='?',default='bacteria',
 		help="""Domain or kingdom of interest. Options include:
 		"bacteria" (default), "archaea", "fungi", "viruses".""")
-	parser.add_argument('--prenormalize-rpm',action='store_true',default=False,
-		help="""Normalize to reads-per-million prior to collapsing & transforming data.""")
+
+	parser.add_argument('--no-rpm',action='store_true',default=False,
+		help="""Do not normalize to reads-per-million prior to collapsing.""")
+
+	parser.add_argument('--min-clr-prevalence',default=0.25,
+		help="""Remove OTUs with lesser than this fraction of prevalence prior
+		to calculating CLR. The CLR transform performs best with lower sparsity.
+		Default = 0.25.""")
 
 	return parser
 
@@ -143,56 +248,26 @@ if __name__ == "__main__":
 	ASSAY = d['assay']
 	DOMAIN = d['domain']
 	STAT = d['statistic']
-	prenormalize_rpm = d['prenormalize_rpm']
+	no_rpm = d['no_rpm']
+	min_clr_prev = float(d['min_clr_prevalence']) # Use 0.05 for pan-cancer, 0.25 otherwise
+
+	OUTPUT_DIR = './collapsed/{}/{}'.format(PROJECT, ASSAY)
+	RESULTS_DIR = './results/{}/{}'.format(PROJECT, ASSAY)
+
+	if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
 
 	taxa = pd.read_csv('./taxonomy/taxa.all.txt',index_col=0,sep='\t')
 
-	fname = './taxonomy/tax_table.all.ids.txt'
+	fname = './taxonomy/tables/tax_table.all.ids.txt'
 	taxtable = pd.read_csv(fname, sep='\t',index_col=0)
 
-	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT, ASSAY, domain, STAT)
+	fname = '{}/{}.{}.txt'.format(RESULTS_DIR, domain, STAT)
 	DATA = pd.read_csv(fname,sep='\t',index_col=0)
 
-	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
+	fname = './metadata/metadata.{}.file.txt'.format(PROJECT)
 	META = pd.read_csv(fname,sep='\t',index_col=0, low_memory=False)
 
-	# Normalize within sample types
-	for sample_type in ['tissue','blood']:
+	READS = get_total_reads()
 
-		if sample_type == 'blood':
-			ix_tissue = META.index[META['sample.Sample']=='BDN']
-		elif sample_type == 'tissue':
-			ix_tissue = META.index[META['sample.Sample'].isin(['PT','STN'])]
-
-		samples = np.intersect1d(DATA.columns, ix_tissue)
-
-		data = DATA[samples]
-		meta = META.loc[samples]
-
-		if prenormalize_rpm:
-			print("Pre-normalizing to RPM...")
-			data = normalize_rpm(data,meta)
-
-		# Collapse to sample-, patient-, and file level
-		for collapse_var in ['sample.bcr_sample_barcode','case.bcr_patient_barcode','']:
-
-			print("\nCollapsing {} to {}-level:".format(sample_type,collapse_var.split('.')[0] if collapse_var else 'file'))
-
-			collapse_name = collapse_var.split('.')[0] if collapse_var else 'file'
-			stat_name = 'rpm.' + STAT if prenormalize_rpm else STAT
-
-			print("Normalizing to read average...")
-			data_reads = normalize_reads(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.reads.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
-			data_reads.to_csv(fname,sep='\t')
-
-			print("Normalizing to relative abundance...")
-			data_relabund = normalize_relabund(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.relabund.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
-			data_relabund.to_csv(fname,sep='\t')
-
-			print("Normalizing to centered-log ratio (CLR)...")
-			data_clr = normalize_clr(data, meta, collapse_var=collapse_var)
-			fname = './results/{}/{}/{}.{}.{}.{}.clr.txt'.format(PROJECT, ASSAY, domain, stat_name, sample_type, collapse_name)
-			data_clr.to_csv(fname,sep='\t')
-
+	main()
+	print("Done.\n")

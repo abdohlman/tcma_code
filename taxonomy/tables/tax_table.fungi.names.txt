@@ -1,0 +1,432 @@
+	superkingdom	kingdom	subkingdom	phylum	subphylum	class	subclass	order	suborder	family	genus	species group	species
+4754	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Pneumocystidomycetes		Pneumocystidales		Pneumocystidaceae	Pneumocystis		Pneumocystis carinii
+4808	Eukaryota	Fungi		Blastocladiomycota		Blastocladiomycetes		Blastocladiales		Blastocladiaceae	Blastocladiella		Blastocladiella emersonii
+4837	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Mucoromycetes		Mucorales		Phycomycetaceae	Phycomyces		Phycomyces blakesleeanus
+4872	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Endogonomycetes		Endogonales		Endogonaceae	Endogone		Endogone pisiformis
+4876	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Glomerales		Glomeraceae	Rhizophagus		Rhizophagus intraradices
+4896	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Schizosaccharomycetes		Schizosaccharomycetales		Schizosaccharomycetaceae	Schizosaccharomyces		Schizosaccharomyces pombe
+4897	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Schizosaccharomycetes		Schizosaccharomycetales		Schizosaccharomycetaceae	Schizosaccharomyces		Schizosaccharomyces japonicus
+4899	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Schizosaccharomycetes		Schizosaccharomycetales		Schizosaccharomycetaceae	Schizosaccharomyces		Schizosaccharomyces octosporus
+4903	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Cyberlindnera		Cyberlindnera jadinii
+4911	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Kluyveromyces		Kluyveromyces marxianus
+4920	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Millerozyma		Millerozyma farinosa
+4924	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Scheffersomyces		Scheffersomyces stipitis
+4926	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Pichia		Pichia membranifaciens
+4927	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Wickerhamomyces		Wickerhamomyces anomalus
+4929	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Meyerozyma		Meyerozyma guilliermondii
+4931	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces bayanus
+4932	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces cerevisiae
+4934	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Lachancea		Lachancea kluyveri
+4950	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Torulaspora		Torulaspora delbrueckii
+4952	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Yarrowia		Yarrowia lipolytica
+4956	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Zygosaccharomyces		Zygosaccharomyces rouxii
+4959	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Debaryomyces		Debaryomyces hansenii
+5007	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Brettanomyces		Brettanomyces bruxellensis
+5016	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Bipolaris		Bipolaris maydis
+5017	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Bipolaris		Bipolaris zeicola
+5022	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Leptosphaeriaceae	Leptosphaeria		Leptosphaeria maculans
+5037	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Ajellomycetaceae	Histoplasma		Histoplasma capsulatum
+5044	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales			Acremonium		Acremonium chrysogenum
+5053	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus aculeatus
+5057	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus clavatus
+5059	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus flavus
+5061	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus niger
+5062	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus oryzae
+5068	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus tubingensis
+5082	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium roqueforti
+5113	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Epichloe		Epichloe typhina
+5141	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Sordariaceae	Neurospora		Neurospora crassa
+5145	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Lasiosphaeriaceae	Podospora		Podospora anserina
+5147	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Sordariaceae	Sordaria		Sordaria macrospora
+5180	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Sclerotiniaceae	Sclerotinia		Sclerotinia sclerotiorum
+5207	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Cryptococcus	Cryptococcus neoformans species complex	Cryptococcus neoformans
+5217	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Tremellaceae	Tremella		Tremella mesenterica
+5270	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Ustilaginomycetes		Ustilaginales		Ustilaginaceae	Ustilago		Ustilago maydis
+5281	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Exobasidiomycetes		Georgefischeriales		Tilletiariaceae	Tilletiaria		Tilletiaria anomala
+5286	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Microbotryomycetes		Sporidiobolales		Sporidiobolaceae	Rhodotorula		Rhodotorula toruloides
+5297	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Pucciniomycetes		Pucciniales		Pucciniaceae	Puccinia		Puccinia graminis
+5308	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Meruliaceae	Phlebia		Phlebia radiata
+5315	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Ganoderma		Ganoderma lucidum
+5322	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Pleurotaceae	Pleurotus		Pleurotus ostreatus
+5323	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Pleurotaceae	Pleurotus		Pleurotus eryngii
+5325	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Trametes		Trametes versicolor
+5334	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Schizophyllaceae	Schizophyllum		Schizophyllum commune
+5341	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Agaricaceae	Agaricus		Agaricus bisporus
+5346	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Psathyrellaceae	Coprinopsis		Coprinopsis cinerea
+5353	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Omphalotaceae	Lentinula		Lentinula edodes
+5476	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida albicans
+5478	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Nakaseomyces		[Candida] glabrata
+5480	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida parapsilosis
+5482	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida tropicalis
+5486	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida viswanathii
+5501	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales			Coccidioides		Coccidioides immitis
+5507	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium oxysporum species complex	Fusarium oxysporum
+5516	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium sambucinum species complex	Fusarium culmorum
+5518	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium sambucinum species complex	Fusarium graminearum
+5530	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Metarhizium		Metarhizium anisopliae
+5551	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Trichophyton		Trichophyton rubrum
+5599	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Alternaria	Alternaria alternata complex	Alternaria alternata
+5606	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina						Saitoella		Saitoella complicata
+5619	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Tsuchiyaea		Tsuchiyaea wingfieldii
+5970	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala dermatitidis
+6035	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Unikaryonidae	Encephalitozoon		Encephalitozoon cuniculi
+13349	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Orbiliomycetes		Orbiliales		Orbiliaceae	Arthrobotrys		Arthrobotrys oligospora
+13684	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Phaeosphaeriaceae	Parastagonospora		Parastagonospora nodorum
+27288	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Naumovozyma		Naumovozyma castellii
+27289	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Naumovozyma		Naumovozyma dairenensis
+27291	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces paradoxus
+27292	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces pastorianus
+27293	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Kazachstania		Kazachstania servazzii
+27300	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Schwanniomyces		Schwanniomyces occidentalis
+27322	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Metschnikowiaceae	Metschnikowia		Metschnikowia bicuspidata
+27334	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium expansum
+27337	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Plectosphaerellaceae	Verticillium		Verticillium dahliae
+27357	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum acutatum
+27381	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Glomerales		Glomeraceae	Funneliformis		Funneliformis mosseae
+27973	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Unikaryonidae	Encephalitozoon		Encephalitozoon hellem
+28550	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Schwanniomyces		Schwanniomyces etchellsii
+28564	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Trichocomaceae	Talaromyces		Talaromyces stipitatus
+28985	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Kluyveromyces		Kluyveromyces lactis
+29833	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycodaceae	Hanseniaspora		Hanseniaspora uvarum
+29852	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Hypocreaceae	Hypomyces		Hypomyces aurantius
+29855	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Nectria		Nectria cinnabarina
+29875	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Hypocreaceae	Trichoderma		Trichoderma virens
+29883	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Tricholomataceae	Laccaria		Laccaria bicolor
+29884	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Ganoderma		Ganoderma applanatum
+29898	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Microbotryomycetes		Sporidiobolales		Sporidiobolaceae	Rhodotorula		Rhodotorula graminis
+29908	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Ophiostomatales		Ophiostomataceae	Sporothrix		Sporothrix schenckii
+31281	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Enterocytozoonidae	Enterocytozoon		Enterocytozoon bieneusi
+31870	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum graminicola
+33169	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Eremothecium		Eremothecium gossypii
+33178	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus terreus
+33188	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Onygenaceae	Uncinocarpus		Uncinocarpus reesii
+33203	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Ophiocordycipitaceae	Purpureocillium		Purpureocillium lilacinum
+34349	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Mixiomycetes		Mixiales		Mixiaceae	Mixia		Mixia osmundae
+34356	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Metschnikowiaceae	Kodamaea		Kodamaea ohmeri
+34391	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Epidermophyton		Epidermophyton floccosum
+34480	Eukaryota	Fungi		Zoopagomycota	Entomophthoromycotina	Basidiobolomycetes		Basidiobolales		Basidiobolaceae	Basidiobolus		Basidiobolus ranarum
+34485	Eukaryota	Fungi		Zoopagomycota	Entomophthoromycotina	Entomophthoromycetes		Entomophthorales		Entomophthoraceae	Entomophthora		Entomophthora muscae
+34488	Eukaryota	Fungi		Zoopagomycota	Entomophthoromycotina	Entomophthoromycetes		Entomophthorales		Ancylistaceae	Conidiobolus		Conidiobolus coronatus
+35629	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Torulaspora		Torulaspora pretoriensis
+35717	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Epichloe		Epichloe festucae
+35720	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Chaetomiaceae	Thielavia		Thielavia terrestris
+35722	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Mucoromycetes		Mucorales	Mucorineae	Mucoraceae	Parasitella		Parasitella parasitica
+36015	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Pichia		Pichia kluyveri
+36025	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Nakazawaea		Nakazawaea holstii
+36033	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Vanderwaltozyma		Vanderwaltozyma polyspora
+36035	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycodaceae	Saccharomycodes		Saccharomycodes ludwigii
+36038	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Barnettozyma		Barnettozyma californica
+36066	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Cantharellales		Cantharellaceae	Cantharellus		Cantharellus cibarius
+36075	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Ganoderma		Ganoderma sinense
+36630	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus fischeri
+36651	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium digitatum
+36779	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Magnaporthales		Magnaporthaceae	Gaeumannomyces		Gaeumannomyces tritici
+36909	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Citeromyces		Citeromyces matritensis
+36911	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Metschnikowiaceae	Clavispora		Clavispora lusitaniae
+36914	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Lodderomyces		Lodderomyces elongisporus
+37727	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Trichocomaceae	Talaromyces		Talaromyces marneffei
+37769	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Cryptococcus	Cryptococcus gattii species complex	Cryptococcus gattii VGI
+37998	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Parengyodontium		Parengyodontium album
+38006	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Beauveria		Beauveria caledonica
+38033	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Chaetomiaceae	Chaetomium		Chaetomium globosum
+38038	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Rhynchosporium		Rhynchosporium secalis
+38945	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Physalacriaceae	Flammulina		Flammulina velutipes
+39397	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales			Candida		Candida sake
+39416	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Pezizomycetes		Pezizales		Tuberaceae	Tuber		Tuber melanosporum
+40125	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Bipolaris		Bipolaris victoriae
+40127	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Sordariaceae	Neurospora		Neurospora tetrasperma
+40145	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Tricholomataceae	Tricholoma		Tricholoma matsutake
+40302	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Nosematidae	Nosema		Nosema ceranae
+40355	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Fonsecaea		Fonsecaea pedrosoi
+40382	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus ustus
+40492	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Russulales		Stereaceae	Stereum		Stereum hirsutum
+40559	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Sclerotiniaceae	Botrytis		Botrytis cinerea
+41061	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus nomius
+41833	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Umbelopsidomycetes		Umbelopsidales		Umbelopsidaceae	Umbelopsis		Umbelopsis ramanniana
+42068	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Pneumocystidomycetes		Pneumocystidales		Pneumocystidaceae	Pneumocystis		Pneumocystis jirovecii
+42260	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Zygotorulaspora		Zygotorulaspora mrakii
+42374	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida dubliniensis
+42399	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Nosematidae	Vittaforma		Vittaforma corneae
+43049	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Exobasidiomycetes		Tilletiales		Tilletiaceae	Tilletia		Tilletia indica
+43228	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Capronia		Capronia epimyces
+43229	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Capronia		Capronia coronata
+44070	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trigonopsidaceae	Botryozyma		Botryozyma nematodophila
+44093	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Trichomonascus		Trichomonascus ciferrii
+45130	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Bipolaris		Bipolaris sorokiniana
+45151	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Pyrenophora		Pyrenophora tritici-repentis
+45285	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Eremothecium		Eremothecium cymbalariae
+45286	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Eremothecium		Eremothecium sinecaudum
+45354	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Metschnikowiaceae	Clavispora		[Candida] intermedia
+45502	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Priceomyces		Priceomyces haplophilus
+45510	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Yamadazyma		Yamadazyma philogaea
+45511	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Yamadazyma		Yamadazyma scolyti
+45513	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Scheffersomyces		Scheffersomyces spartinae
+45515	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Yamadazyma		Yamadazyma triangularis
+45535	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella castrensis
+45575	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella paludigena
+45586	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales			Candida		Candida santjacobensis
+45596	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Yamadazyma		Yamadazyma tenuis
+45601	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella valdiviana
+45609	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Babjeviella		Babjeviella inositovora
+45794	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Sporopachydermia		Sporopachydermia lactativora
+46583	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Suhomyces		Suhomyces tanzawaensis
+47032	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Glomerales		Glomeraceae	Rhizophagus		Rhizophagus fasciculatus
+48254	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Torulaspora		Torulaspora globosa
+48490	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium fujikuroi species complex	Fusarium circinatum
+49330	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Barnettozyma		[Candida] norvegica
+51453	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Hypocreaceae	Trichoderma		Trichoderma reesei
+51657	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Nakaseomyces		Nakaseomyces delphensis
+51660	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Nakaseomyces		Nakaseomyces bacillisporus
+51914	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Nakaseomyces		[Candida] castellii
+51918	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Cyberlindnera		[Candida] vartiovaarae
+52253	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida sojae
+52884	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Lecanoromycetes	Lecanoromycetidae	Peltigerales	Peltigerineae	Peltigeraceae	Peltigera		Peltigera malacea
+53485	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Pyrenophora		Pyrenophora teres
+53488	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Torulaspora		Torulaspora franciscae
+53685	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycodaceae	Hanseniaspora		Hanseniaspora valbyensis
+54195	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Ascoideaceae	Ascoidea		Ascoidea rubescens
+54899	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Diaporthales		Diaporthaceae	Diaporthe		Diaporthe longicolla
+58627	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Debaryomyces		Debaryomyces fabryi
+58839	Eukaryota	Fungi		Microsporidia					Apansporoblastina	Unikaryonidae	Encephalitozoon		Encephalitozoon intestinalis
+60169	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium polonicum
+60172	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium solitum
+61392	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina	Kickxellomycetes		Kickxellales		Kickxellaceae	Coemansia		Coemansia reversa
+61418	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina	Kickxellomycetes		Kickxellales		Kickxellaceae	Spiromyces		Spiromyces minutus
+61459	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes					Coniosporium		Coniosporium apollinis
+63400	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Trichophyton		Trichophyton benhamiae
+63402	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Nannizzia		Nannizzia gypsea
+63405	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Microsporum		Microsporum canis
+63417	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Trichophyton		Trichophyton verrucosum
+63577	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Hypocreaceae	Trichoderma		Trichoderma atroviride
+64495	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Mucoromycetes		Mucorales	Mucorineae	Rhizopodaceae	Rhizopus		Rhizopus oryzae
+64517	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Rhizophlyctidales		Rhizophlyctidaceae	Rhizophlyctis		Rhizophlyctis rosea
+64609	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Ilyonectria		Ilyonectria destructans
+68401	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina	Kickxellomycetes		Kickxellales		Kickxellaceae	Spiromyces		Spiromyces aspiralis
+68825	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Trichocomaceae	Rasamsonia		Rasamsonia emersonii
+70189	Eukaryota	Fungi		Olpidiomycota	Olpidiomycotina	Olpidiomycetes		Olpidiales		Olpidiaceae	Olpidium		Olpidium brassicae
+71246	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Kazachstania		Kazachstania viticola
+71617	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Ophiocordycipitaceae	Tolypocladium		Tolypocladium ophioglossoides
+73501	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Cordyceps		Cordyceps militaris
+74035	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Arthroderma		Arthroderma uncinatum
+75736	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales			Starmerella		Starmerella bombicola
+76773	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Malasseziomycetes		Malasseziales		Malasseziaceae	Malassezia		Malassezia globosa
+76777	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Malasseziomycetes		Malasseziales		Malasseziaceae	Malassezia		Malassezia sympodialis
+77020	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Malasseziomycetes		Malasseziales		Malasseziaceae	Malassezia		Malassezia pachydermatis
+77105	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Sclerotiniaceae	Sclerotinia		Sclerotinia borealis
+78579	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Chaetomiaceae	Thermothelomyces		Thermothelomyces thermophilus
+78898	Eukaryota	Fungi		Mucoromycota	Mortierellomycotina	Mortierellomycetes		Mortierellales		Mortierellaceae	Mortierella		Mortierella verticillata
+78909	Eukaryota	Fungi		Zoopagomycota	Zoopagomycotina	Zoopagomycetes		Zoopagales		Piptocephalidaceae	Kuzuhaea		Kuzuhaea moniliformis
+78913	Eukaryota	Fungi		Zoopagomycota	Zoopagomycotina	Zoopagomycetes		Zoopagales		Helicocephalidaceae	Rhopalomyces		Rhopalomyces elegans
+78917	Eukaryota	Fungi		Zoopagomycota	Zoopagomycotina	Zoopagomycetes		Zoopagales		Piptocephalidaceae	Piptocephalis		Piptocephalis corymbifera
+78925	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina	Dimargaritomycetes		Dimargaritales		Dimargaritaceae	Dimargaris		Dimargaris bacillispora
+79858	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes				Pseudeurotiaceae	Pseudogymnoascus		Pseudogymnoascus pannorum
+80637	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Boletales	Coniophorineae	Coniophoraceae	Coniophora		Coniophora puteana
+80884	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum higginsianum
+82268	Eukaryota	Fungi		Chytridiomycota		Monoblepharidomycetes		Monoblepharidales			Hyaloraphidium		Hyaloraphidium curvatum
+82508	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Trichosporonales		Trichosporonaceae	Trichosporon		Trichosporon asahii
+84751	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Ustilaginomycetes		Ustilaginales		Ustilaginaceae	Anthracocystis		Anthracocystis flocculosa
+84753	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Ustilaginomycetes		Ustilaginales		Ustilaginaceae	Moesziomyces		Moesziomyces antarcticus
+85929	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Mycosphaerellaceae	Sphaerulina		Sphaerulina musiva
+85982	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Boletales	Coniophorineae	Serpulaceae	Serpula		Serpula lacrymans
+86049	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Cladophialophora		Cladophialophora carrionii
+86056	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Rhinocladiella		Rhinocladiella mackenziei
+89940	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Cladophialophora		Cladophialophora bantiana
+91928	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala spinifera
+92637	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Metarhizium		Metarhizium acridum
+93612	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Exserohilum		Exserohilum turcicum
+97096	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Xylariomycetidae	Xylariales		Diatrypaceae	Eutypa		Eutypa lata
+100756	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Russulales		Hericiaceae	Hericium		Hericium coralloides
+100816	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales			Madurella		Madurella mycetomatis
+101028	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium sambucinum species complex	Fusarium pseudograminearum
+101162	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Pleosporaceae	Bipolaris		Bipolaris oryzae
+101852	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Helotiaceae	Glarea		Glarea lozoyensis
+103449	Eukaryota	Fungi		Microsporidia					Pansporoblastina	Pleistophoridae	Vavraia		Vavraia culicis
+104341	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Dacryobolaceae	Postia		Postia placenta
+104355	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Gloeophyllales		Gloeophyllaceae	Gloeophyllum		Gloeophyllum trabeum
+104669	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Cryptococcus		Cryptococcus amylolentus
+109760	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Spizellomycetales		Spizellomycetaceae	Spizellomyces		Spizellomyces punctatus
+109871	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Rhizophydiales			Batrachochytrium		Batrachochytrium dendrobatidis
+109936	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Cladochytriales		Cladochytriaceae	Cladochytrium		Cladochytrium replicatum
+110093	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Polychytriales			Polychytrium		Polychytrium aggregatum
+111463	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Ophiocordycipitaceae	Hirsutella		Hirsutella rhossiliensis
+113608	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Tetrapisispora		Tetrapisispora phaffii
+114155	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Dichomitus		Dichomitus squalens
+114497	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Cordyceps		Cordyceps fumosorosea
+114524	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces kudriavzevii
+114525	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces mikatae
+114526	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces cariocanus
+115983	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes		Botryosphaeriales		Phyllostictaceae	Phyllosticta		Phyllosticta ampelicida
+117179	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Exobasidiomycetes		Tilletiales		Tilletiaceae	Tilletia		Tilletia walkeri
+117187	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium fujikuroi species complex	Fusarium verticillioides
+118266	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Beauveria		Beauveria brongniartii
+119676	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Nannizzia		Nannizzia nana
+121466	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Kurtzmaniella		Kurtzmaniella cleridarum
+121759	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales			Paracoccidioides		Paracoccidioides brasiliensis
+133175	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Mycosphaerellaceae	Pseudocercospora		Pseudocercospora angolensis
+140110	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium solani species complex	[Nectria] haematococca
+143960	Eukaryota	Fungi		Blastocladiomycota		Blastocladiomycetes		Blastocladiales		Coelomomycetaceae	Coelomomyces		Coelomomyces stegomyiae
+144539	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Paraglomerales		Paraglomeraceae	Paraglomus		Paraglomus occultum
+145971	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum lupini
+149040	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Phialocephala		Phialocephala scopiformis
+152651	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales		Delitschiaceae	Delitschia		Delitschia didyma
+153609	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Marasmiaceae	Moniliophthora		Moniliophthora perniciosa
+154344	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Ganoderma		Ganoderma meredithae
+161997	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Lecanoromycetes	Lecanoromycetidae	Peltigerales	Peltigerineae	Peltigeraceae	Peltigera		Peltigera membranacea
+162425	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus nidulans
+169388	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium solani species complex	Fusarium solani
+169999	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Pucciniomycetes		Pucciniales		Phakopsoraceae	Phakopsora		Phakopsora meibomiae
+170000	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Pucciniomycetes		Pucciniales		Phakopsoraceae	Phakopsora		Phakopsora pachyrhizi
+174685	Eukaryota	Fungi		Microsporidia						Ordosporidae	Ordospora		Ordospora colligata
+176275	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Beauveria		Beauveria bassiana
+176453	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Lecanoromycetes	Lecanoromycetidae	Peltigerales	Peltigerineae	Peltigeraceae	Peltigera		Peltigera dolichorrhiza
+184778	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Yarrowia		Yarrowia deformans
+192010	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium fujikuroi species complex	Fusarium mangiferae
+197054	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Yarrowia		Yarrowia galli
+199306	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales			Coccidioides		Coccidioides posadasii
+202698	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Corticiales		Punctulariaceae	Punctularia		Punctularia strigosozonata
+203908	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Pucciniomycetes		Pucciniales		Melampsoraceae	Melampsora		Melampsora larici-populina
+208960	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Hymenochaetales		Hymenochaetaceae	Fomitiporia		Fomitiporia mediterranea
+209285	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Sordariales		Chaetomiaceae	Chaetomium		Chaetomium thermophilum
+210010	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Rhynchosporium		Rhynchosporium orthosporum
+212818	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala mesophila
+215243	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala oligosperma
+221103	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes	Agaricomycetidae	Agaricales		Marasmiaceae	Moniliophthora		Moniliophthora roreri
+223192	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Togniniales		Togniniaceae	Phaeoacremonium		Phaeoacremonium minimum
+224420	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales			Shiraia		Shiraia bambusicola
+226899	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Ophiostomatales		Ophiostomataceae	Grosmannia		Grosmannia clavigera
+230603	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces uvarum
+231932	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Phanerochaetaceae	Phanerochaete		Phanerochaete carnosa
+236234	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes		Botryosphaeriales		Botryosphaeriaceae	Diplodia		Diplodia corticola
+245174	Eukaryota	Fungi	Dikarya	Basidiomycota	Wallemiomycotina	Wallemiomycetes		Wallemiales		Wallemiaceae	Wallemia		Wallemia ichthyophaga
+253628	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes		Venturiales		Sympoventuriaceae	Verruconis		Verruconis gallopava
+261099	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Rhizophydiales		Terramycetaceae	Boothiomyces		Boothiomyces macroporosum
+263815	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Pneumocystidomycetes		Pneumocystidales		Pneumocystidaceae	Pneumocystis		Pneumocystis murina
+273371	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida orthopsilosis
+273372	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida metapsilosis
+276838	Eukaryota	Fungi		Blastocladiomycota		Physodermatomycetes		Physodermatales		Physodermataceae	Physoderma		Physoderma maydis
+279894	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella novakii
+280754	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Pochonia		Pochonia chlamydosporia
+281364	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales			Acremonium		Acremonium fuci
+281847	Eukaryota	Fungi		Cryptomycota							Rozella		Rozella allomycis
+288795	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Microbotryomycetes		Microbotryales		Microbotryaceae	Microbotryum		Microbotryum lychnidis-dioicae
+290576	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum lindemuthianum
+291364	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Akanthomyces		Akanthomyces muscarius
+293227	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Cyphellophoraceae	Cyphellophora		Cyphellophora europaea
+305400	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Diaporthales		Cryphonectriaceae	Chrysoporthe		Chrysoporthe cubensis
+310453	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes		Botryosphaeriales		Botryosphaeriaceae	Neofusicoccum		Neofusicoccum parvum
+317047	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales			Kuraishia		Kuraishia capsulata
+318829	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Magnaporthales		Pyriculariaceae	Pyricularia		Pyricularia oryzae
+324677	Eukaryota	Fungi		Chytridiomycota		Chytridiomycetes		Synchytriales		Synchytriaceae	Synchytrium		Synchytrium macrosporum
+324740	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Kregervanrija		Kregervanrija fluxuum
+324769	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Kwoniella		Kwoniella bestiolae
+324770	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Kwoniella		Kwoniella dejecticola
+326628	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Xylariomycetidae	Xylariales		Hypoxylaceae	Annulohypoxylon		Annulohypoxylon stygium
+327079	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Ustilaginomycetes		Ustilaginales		Ustilaginaceae	Pseudozyma		Pseudozyma hubeiensis
+332947	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Ophiocordycipitaceae	Hirsutella		Hirsutella minnesotensis
+337075	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Pezizomycetes		Pezizales		Pyronemataceae	Pyronema		Pyronema omphalodes
+340170	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Spathaspora		Spathaspora passalidarum
+342668	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes				Pseudeurotiaceae	Pseudogymnoascus		Pseudogymnoascus verrucosus
+348802	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala xenobiotica
+354353	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Diaporthales		Cryphonectriaceae	Chrysoporthe		Chrysoporthe austroafricana
+364733	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Verrucariales		Verrucariaceae	Endocarpon		Endocarpon pusillum
+369265	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Ogataea		Ogataea thermophila
+371061	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Beauveria		Beauveria malawiensis
+377600	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella boreocaroliniensis
+377601	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella floridensis
+378047	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Blastobotrys		Blastobotrys malaysiensis
+378048	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Blastobotrys		Blastobotrys illinoisensis
+378056	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella marionensis
+378058	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella grinbergsii
+378059	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella pinicola
+378060	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella neomexicana
+381046	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Lachancea		Lachancea thermotolerans
+386457	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Microascales		Ceratocystidaceae	Ceratocystis		Ceratocystis cacaofunesta
+393283	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Xylariomycetidae	Xylariales		Sporocadaceae	Pestalotiopsis		Pestalotiopsis fici
+395010	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Mycosphaerellaceae	Zasmidium		Zasmidium cellare
+396380	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Verrucariales		Verrucariaceae	Endocarpon		Endocarpon pallidulum
+398673	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Hypocreaceae	Trichoderma		Trichoderma gamsii
+410836	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella japonica
+430498	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Orbiliomycetes		Orbiliales		Orbiliaceae	Dactylellina		Dactylellina haptotyla
+432096	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Kazachstania		Kazachstania africana
+444778	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Yarrowia		Yarrowia phangngaensis
+453459	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Kwoniella		Kwoniella pini
+456999	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Cantharellales		Ceratobasidiaceae	Rhizoctonia		Rhizoctonia solani
+460519	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Komagataella		Komagataella phaffii
+460523	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Ogataea		Ogataea polymorpha
+463800	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Tremellales		Cryptococcaceae	Kwoniella		Kwoniella mangrovensis
+468837	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Lecanicillium		Lecanicillium saksenae
+470704	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Cladophialophora		Cladophialophora yegresii
+474922	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum gloeosporioides
+479092	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Yarrowia		Yarrowia alimentaria
+498019	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Metschnikowiaceae	Clavispora		[Candida] auris
+500148	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Metarhizium		Metarhizium brunneum
+502744	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Myriangiales			Endosporium		Endosporium aviarium
+523103	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Arthrodermataceae	Trichophyton		Trichophyton mentagrophytes
+536035	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida prachuapensis
+542766	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Exobasidiomycetes		Microstromatales			Jaminaea		Jaminaea angkorensis
+549293	Eukaryota	Fungi		Mucoromycota	Mucoromycotina	Mucoromycetes		Mucorales		Lichtheimiaceae	Lichtheimia		Lichtheimia hongkongensis
+559561	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Dothideales		Saccotheciaceae	Aureobasidium		Aureobasidium namibiae
+563466	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Microascales		Microascaceae	Scedosporium		Scedosporium apiospermum
+568076	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Metarhizium		Metarhizium robertsii
+569362	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Nectriaceae	Fusarium	Fusarium sambucinum species complex	Fusarium gerlachii
+569365	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Cladophialophora		Cladophialophora immunda
+575983	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales		Polyporaceae	Trametes		Trametes cingulata
+576137	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Phialocephala		Phialocephala subalpina
+586133	Eukaryota	Fungi		Microsporidia							Nematocida		Nematocida parisii
+588596	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Glomerales		Glomeraceae	Rhizophagus		Rhizophagus irregularis
+599730	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Wickerhamomyces		Wickerhamomyces pijperi
+599839	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Polyporales			Fibroporia		Fibroporia radiculosa
+655981	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes				Pseudeurotiaceae	Pseudogymnoascus		Pseudogymnoascus destructans
+698440	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Dermateaceae	Marssonina		Marssonina brunnea
+706196	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces arboricola
+710243	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum fioriniae
+717740	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Hyphopichia		Hyphopichia burtonii
+746128	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Aspergillus		Aspergillus fumigatus
+749589	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Pleosporineae	Didymellaceae	Didymella		Didymella pinodes
+764597	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Sordariomycetidae	Diaporthales		Cryphonectriaceae	Chrysoporthe		Chrysoporthe deuterocubensis
+796027	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Sugiyamaella		Sugiyamaella lignohabitans
+866546	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina	Schizosaccharomycetes		Schizosaccharomycetales		Schizosaccharomycetaceae	Schizosaccharomyces		Schizosaccharomyces cryophilus
+870730	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Ogataea		Ogataea angusta
+879819	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Tremellomycetes		Trichosporonales		Trichosporonaceae	Cutaneotrichosporon		Cutaneotrichosporon oleaginosum
+907738	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Cyberlindnera		Cyberlindnera suaveolens
+914237	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Rhynchosporium		Rhynchosporium commune
+914238	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales			Rhynchosporium		Rhynchosporium agropyri
+931006	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Cordycipitaceae	Beauveria		Beauveria pseudobassiana
+933994	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Trichomonascaceae	Spencermartinsiella		Spencermartinsiella europaea
+979981	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Fonsecaea		Fonsecaea multimorphosa
+984962	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Russulales		Bondarzewiaceae	Heterobasidion		Heterobasidion irregulare
+1005962	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Ogataea		Ogataea parapolymorpha
+1033840	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Exophiala		Exophiala aquamarina
+1041607	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Phaffomycetaceae	Wickerhamomyces		Wickerhamomyces ciferrii
+1042127	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Dothideales		Saccotheciaceae	Aureobasidium		Aureobasidium subglaciale
+1047171	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Mycosphaerellaceae	Zymoseptoria		Zymoseptoria tritici
+1048829	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales			Paracoccidioides		Paracoccidioides lutzii
+1051613	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Plectosphaerellaceae	Verticillium		Verticillium alfalfae
+1051616	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Plectosphaerellaceae	Verticillium		Verticillium nonalfalfae
+1071379	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Tetrapisispora		Tetrapisispora blattae
+1080349	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Saccharomycetaceae	Saccharomyces		Saccharomyces eubayanus
+1108849	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Aspergillaceae	Penicillium		Penicillium rubens
+1173061	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Dipodascaceae	Geotrichum		Geotrichum candidum
+1182553	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Cladophialophora		Cladophialophora psammophila
+1198502	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Debaryomycetaceae	Candida		Candida theae
+1209934	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Glomerellales		Glomerellaceae	Colletotrichum		Colletotrichum tamarilloi
+1213189	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina	Harpellomycetes		Harpellales		Legeriomycetaceae	Zancudomyces		Zancudomyces culisetae
+1217826	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Xylonomycetes		Xylonales		Xylonaceae	Xylona		Xylona heveae
+1288119	Eukaryota	Fungi	Dikarya	Basidiomycota	Pucciniomycotina	Microbotryomycetes		Microbotryales		Microbotryaceae	Microbotryum		Microbotryum cf. violaceum BFL-2013
+1316150	Eukaryota	Fungi		Mucoromycota	Glomeromycotina	Glomeromycetes		Diversisporales		Gigasporaceae	Dentiscutata		Dentiscutata heterogama
+1331295	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina	Agaricomycetes		Auriculariales		Auriculariaceae	Auricularia		Auricularia subglabra
+1367422	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Fonsecaea		Fonsecaea erecta
+1378263	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina	Saccharomycetes		Saccharomycetales		Pichiaceae	Ogataea		Ogataea philodendri
+1392244	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina	Ustilaginomycetes		Ustilaginales		Ustilaginaceae	Kalmanozyma		Kalmanozyma brasiliensis
+1441469	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Eurotiales		Trichocomaceae	Talaromyces		Talaromyces atroroseus
+1460663	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Pleosporomycetidae	Pleosporales	Massarineae	Didymosphaeriaceae	Paraphaeosphaeria		Paraphaeosphaeria sporulosa
+1485682	Eukaryota	Fungi		Microsporidia							Mitosporidium		Mitosporidium daphniae
+1518595	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Lecanoromycetes	Lecanoromycetidae	Lecanorales	Lecanorineae	Lecanoraceae	Lecanora		Lecanora strobilina
+1610689	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Sarocladiaceae	Sarocladium		Sarocladium implicatum
+1650735	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Sordariomycetes	Hypocreomycetidae	Hypocreales		Clavicipitaceae	Metarhizium		Metarhizium majus
+1664694	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Chaetothyriomycetidae	Chaetothyriales		Herpotrichiellaceae	Phialophora		Phialophora attae
+1681229	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Eurotiomycetes	Eurotiomycetidae	Onygenales		Ajellomycetaceae	Blastomyces		Blastomyces gilchristii
+1708541	Eukaryota	Fungi	Dikarya	Basidiomycota	Wallemiomycotina	Wallemiomycetes		Wallemiales		Wallemiaceae	Wallemia		Wallemia mellicola
+1709381	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Teratosphaeriaceae	Baudoinia		Baudoinia panamericana
+1802957	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Leotiomycetes		Helotiales		Helotiaceae	Cairneyella		Cairneyella variabilis
+1873960	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina	Dothideomycetes	Dothideomycetidae	Capnodiales		Mycosphaerellaceae	Pseudocercospora		Pseudocercospora fijiensis

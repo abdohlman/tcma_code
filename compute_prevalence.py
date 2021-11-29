@@ -1,20 +1,42 @@
 #!/usr/bin/env python
 
-# USAGE: python compute_prevalence.py $project $assay
+# USAGE: python compute_prevalence.py -p $project -a $assay
 
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-16-21                       #
+# Last updated 11-29-21                      #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
-import os, sys, argparse
+import os
+import argparse
 import pandas as pd
 import numpy as np
 
 from scipy.stats import fisher_exact
-from statsmodels.stats.multitest import multipletests, fdrcorrection
+from statsmodels.stats.multitest import fdrcorrection
+
+
+def main():
+
+	# Calculate project tissue vs. project blood prevalence
+	df = compute_prevalence_vs_blood()
+	fname = './prevalence/prevalence.{}.{}.{}.{}.txt'.format(PROJECT,ASSAY,DOMAIN,STAT)
+	if len(df) > 0: df.to_csv(fname,sep='\t')
+	else: print("Skipping tissue v.s. blood prevalence comparison")
+
+	# Calculate project tissue vs. control tissue prevalence
+	df = compute_prevalence_vs_project(sample_type='tissue', compare_projects=compare_projects)
+	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.tissue.txt'.format(TISSUE_COMP,PROJECT,ASSAY,DOMAIN,STAT)
+	if len(df) > 0: df.to_csv(fname,sep='\t')
+	else: print("Skipping {} tissue v.s. {} tissue prevalence comparison".format(PROJECT, TISSUE_COMP))
+
+	# Calculate project blood vs. control blood prevalence
+	df = compute_prevalence_vs_project(sample_type='blood', compare_projects=compare_projects)
+	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.blood.txt'.format(TISSUE_COMP,PROJECT,ASSAY,DOMAIN,STAT)
+	if len(df) > 0: df.to_csv(fname,sep='\t')
+	else: print("Skipping {} blood v.s. {} blood prevalence comparison".format(PROJECT, TISSUE_COMP))
 
 
 def compute_fisher(df, nobs):
@@ -39,7 +61,7 @@ def compute_prevalence_vs_blood(min_reads=2, downsample=False):
 
 	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
 
-	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
+	fname = './metadata/metadata.{}.file.txt'.format(PROJECT)
 	if not os.path.exists(fname):
 		print("ERROR: no metadata file for {} present".format(PROJECT))
 		return pd.DataFrame()
@@ -80,9 +102,7 @@ def compute_prevalence_vs_project(sample_type, compare_projects=['GBM','LGG'], m
 
 	print("\nComparing {} {} vs. {} {}...".format(PROJECT, sample_type, TISSUE_COMP, sample_type))
 
-	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
-
-	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
+	fname = './metadata/metadata.{}.file.txt'.format(PROJECT)
 	if not os.path.exists(fname):
 		print("ERROR: no metadata file for {} present".format(PROJECT))
 		exit(1)
@@ -91,7 +111,7 @@ def compute_prevalence_vs_project(sample_type, compare_projects=['GBM','LGG'], m
 
 	ctrl_frames = []
 	for project_ctrl in compare_projects:
-		fname = './metadata/metadata.{}.all.txt'.format(project_ctrl)
+		fname = './metadata/metadata.{}.file.txt'.format(project_ctrl)
 		if not os.path.exists(fname):
 			print("ERROR: Comparison {} metadata is not present".format(project_ctrl))
 			return pd.DataFrame()
@@ -106,6 +126,9 @@ def compute_prevalence_vs_project(sample_type, compare_projects=['GBM','LGG'], m
 	ctrl_frames = []
 	for project_ctrl in compare_projects:
 		fname = './results/{}/{}/{}.{}.txt'.format(project_ctrl, ASSAY, DOMAIN, STAT)
+		if not os.path.exists(fname):
+			print("ERROR: Comparison {} data is not present".format(project_ctrl))
+			return pd.DataFrame()
 		df = pd.read_csv(fname,sep='\t',index_col=0)
 		ctrl_frames.append(df)
 
@@ -155,15 +178,15 @@ def create_parser():
 		help="""TCGA sequencing project (eg. COAD)""")
 	parser.add_argument('-a','--assay', nargs='?', required=True,
 		help="""TCGA experimental strategy (eg. WGS)""")
-	parser.add_argument('--tissue_comparison', nargs='?',default='brain',
-		help="""Tissue type to use as comparision. Options: brain (default), ovary.
-		Requires data for GBM/LGG and OV TCGA projects, respectively.""")
 	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous',
 		help="""Statistic to acquire from pathseq output. Options include
 		"unambiguous" (default), "score", "reads".""")
 	parser.add_argument('-d','--domain', nargs='?',default='bacteria',
 		help="""Domain or kingdom of interest. Options include:
 		"bacteria" (default), "archaea", "fungi", "viruses".""")
+	parser.add_argument('--tissue-comparison', nargs='?',default='brain',
+		help="""Tissue type to use as comparision. Options: brain (default), ovary.
+		Requires data for GBM/LGG and OV TCGA projects, respectively.""")
 
 	return parser
 
@@ -183,26 +206,14 @@ if __name__ == "__main__":
 
 	compare_projects = {'brain':['GBM','LGG'],'ovary':['OV']}[TISSUE_COMP]
 
+	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
+
 	print('Computing prevalence for {} {}'.format(PROJECT, ASSAY))
 	print('Domain:',DOMAIN)
 	print('Statistic:',STAT)
 	print('Tissue comparison:',TISSUE_COMP,compare_projects)
 
-	# Calculate project tissue vs. project blood prevalence
-	df = compute_prevalence_vs_blood()
-	fname = './prevalence/prevalence.{}.{}.{}.{}.txt'.format(PROJECT,ASSAY,DOMAIN,STAT)
-	if len(df) > 0: df.to_csv(fname,sep='\t')
-
-	# Calculate project tissue vs. control tissue prevalence
-	df = compute_prevalence_vs_project(sample_type='tissue', compare_projects=compare_projects)
-	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.tissue.txt'.format(TISSUE_COMP,PROJECT,ASSAY,DOMAIN,STAT)
-	if len(df) > 0: df.to_csv(fname,sep='\t')
-
-	# Calculate project blood vs. control blood prevalence
-	df = compute_prevalence_vs_project(sample_type='blood', compare_projects=compare_projects)
-	fname = './prevalence/prevalence_{}.{}.{}.{}.{}.blood.txt'.format(TISSUE_COMP,PROJECT,ASSAY,DOMAIN,STAT)
-	if len(df) > 0: df.to_csv(fname,sep='\t')
-
-	print("Done.")
+	main()
+	print("Done.\n")
 
 

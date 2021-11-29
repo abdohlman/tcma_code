@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin bash
 #SBATCH --mem 256Gb
 #SBATCH --cpus-per-task 16
 #SBATCH -o slurmlog/pathseq.slurm.%A_%a.out
@@ -11,7 +11,7 @@
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-10-21                       #
+# Last updated 11-29-21                      #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
