@@ -1,138 +1,176 @@
 #!/usr/bin/env python
 
-# USAGE: python decontaminate.py $project $assay
+# USAGE: python decontaminate.py -p $project -a $assay
 
 ##############################################
 # Created by Anders B. Dohlman               #
 # Contact anders.dohlman@duke.edu            #
-# Last updated 2-10-21                       #
+# Last updated 11-29-21                      #
 # Publication 10.1016/j.chom.2020.12.001     #
 ##############################################
 
-import os, sys, argparse
+import os
+import argparse
 import pandas as pd
 import numpy as np
 
+TAXONOMY = [
+    'superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'
+]
 
-def compute_mixture_fractions(data,ix,level_clf='species', min_count=5):
-	'''Recursively estimates mixtures of tissue-resident and contaminant reads
-	for all taxa. This is done using by calculating the relative fractions of
-	unambiguously-aligned sequencing reads from tissue-resident or contaminant
-	species within the taxa's clade.'''
+def main():
 
-	data = data.fillna(0.0)
-	data[ data == 1 ] = 0
+	print("\nDecontaminating the following dataset:")
+	print("Project = {}".format(PROJECT))
+	print("Statistic = {}".format(STAT))
+	print("Assay = {}".format(ASSAY))
 
-	fname = './taxonomy/tax_table.all.ids.txt'
-	taxtable = pd.read_csv(fname, sep='\t',index_col=0)
-	taxtable = taxtable.loc[taxtable[level_clf].isin(data.index)]
+	print("\nClassification to be performed with the following parameters:")
+	print("Rank = {}".format(rank_clf))
+	print("Project = {}".format(PROJECT))
+	print("Statistic = {}".format(stat_clf))
+	print("Assay = {}".format(assay_clf))
 
-	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
+	# Ensure no missing taxa
+	assert len(data_obs.index) == len(np.intersect1d(data_obs.index, taxa.index))
 
-	df = pd.DataFrame(columns=data.columns)
+	if custom_list:
+		print('Using custom list {}'.format(custom_list))
+		with open(custom_list) as f:
+			ix_tss_clf = [ int(s) for s in f.read().splitlines() ]
+		f.close()
+	else:
+		ix_ctm_clf, ix_tss_clf = predict_contaminants(
+			PROJECT,
+			assay_clf,
+			DOMAIN,
+			stat_clf
+		)
 
-	for level in taxtable.columns:
+	ix_all = data_obs.index[data_obs.index.isin(taxa.index[taxa['type'] == rank_clf])]
+	ix_tss = np.intersect1d(ix_all, ix_tss_clf)
+	# ix_ctm = np.setdiff1d(ix_all, ix_tss_clf)
+	ix_ctm = np.setdiff1d(ix_all, ix_tss)
 
-		if level == level_clf: break
+	print("Classified {} of {} {}-level taxa as tissue-resident".format(
+		len(ix_tss), len(ix_all), rank_clf))
 
-		otus = taxtable[level].unique()
+	data_tss, data_ctm, pct_tss, pct_ctm = compute_mixture_fractions(
+        data_obs, ix_tss, ix_ctm, rank_clf=rank_clf
+    )
 
-		for otu in otus:
+	results_path = './results/{}/{}/'.format(PROJECT, ASSAY)
+	if not os.path.exists(results_path):
+	    os.mkdir(results_path)
 
-			if otu not in data.index: continue
-			children = taxtable.loc[taxtable[level] == otu,level_clf].unique()
-			if len(children) == 0: continue
-			
-			C_ix = data.loc[np.intersect1d(ix,children)].sum() # sum clade in index
-			C_clade = data.loc[data.index.isin(children)].sum() # sum clade
+	fname = './results/{}/{}/{}.{}.{}.txt'.format(
+	        PROJECT, ASSAY, DOMAIN, STAT, 'decontam')
+	data_tss.to_csv(fname, sep='\t')
 
-			C_clade[ C_clade < min_count ] = np.nan 
+	fname = './results/{}/{}/{}.{}.{}.txt'.format(
+	        PROJECT, ASSAY, DOMAIN, STAT, 'contam')
+	data_ctm.to_csv(fname, sep='\t')
 
-			pct_ix = C_ix.divide(C_clade)
+	fname = './mixtures/{}.{}.{}.{}.{}.txt'.format(
+	        'decontam', PROJECT, ASSAY, DOMAIN, stat_clf)
+	pct_tss.to_csv(fname, sep='\t')
 
-			df.loc[otu] = pct_ix
-
-	return df
-
-
-def extract_subpopulation(pct, data, ix):
-	'''Use estimated fractions (pct) and multiply with the dataset to get mixture
-	from a given set of classified taxa (ix).'''
-
-	data_sub = pd.concat([pct_raw.multiply(data.loc[pct.index]), data.loc[ix]])
-	data_sub[ data_sub == 0 ] = np.nan
-	data_sub = data_sub.dropna(0,'all')
-
-	return data_sub
+	fname = './mixtures/{}.{}.{}.{}.{}.txt'.format(
+	        'contam', PROJECT, ASSAY, DOMAIN, stat_clf)
+	pct_ctm.to_csv(fname, sep='\t')
 
 
-def nan_median(v,n=5):
+def get_children(clade):
+	'''Returns a list of the nearest children for a given clade from
+	the taxonomy table.'''
+
+	children = clade.apply(lambda x: x.dropna()[-1], axis=1)
+	children.name = 'nearest_child'
+
+	children = children.unique()
+
+	return children
+
+
+def compute_mixture_fractions(data_obs, ix_tss, ix_ctm, rank_clf='species', min_count=5):
+    '''Recursively estimates mixtures of tissue-resident and contaminant reads
+    for all taxa. This is done using by calculating the relative fractions of
+    unambiguously-aligned sequencing reads from tissue-resident or contaminant
+    species within the taxa's clade.'''
+
+    # Observed data   
+    data_obs = data_obs.fillna(0.0)
+    data_obs[data_obs == 1] = 0 # remove singletons
+
+    # Instantiate mixture components & mixture fractions
+    data_tss = pd.DataFrame(index=data_obs.index, columns=data_obs.columns)
+    data_ctm = pd.DataFrame(index=data_obs.index, columns=data_obs.columns)
+    pct_tss = pd.DataFrame(index=data_obs.index, columns=data_obs.columns)
+    pct_ctm = pd.DataFrame(index=data_obs.index, columns=data_obs.columns)
+
+    # Taxonomy ranks
+    taxonomy_order = taxtable.columns[::-1]
+
+    n_rank_clf = list(taxonomy_order).index(rank_clf)
+    n_rank_kingdom = list(taxonomy_order).index('superkingdom')
+    taxonomy_order = list(taxonomy_order[n_rank_clf:n_rank_kingdom + 1])
+
+    otus_clf = taxtable[rank_clf].dropna().unique()
+
+    assert len(otus_clf) == len(ix_tss) + len(ix_ctm)
+
+    pct_tss.loc[ix_tss] = 1
+    pct_tss.loc[ix_ctm] = 0
+
+    pct_ctm.loc[ix_ctm] = 1
+    pct_ctm.loc[ix_tss] = 0
+
+    data_tss.loc[otus_clf] = pct_tss.loc[otus_clf]*data_obs.loc[otus_clf]
+    data_ctm.loc[otus_clf] = pct_ctm.loc[otus_clf]*data_obs.loc[otus_clf]
+
+    for n, rank in enumerate(taxonomy_order):
+
+        if rank == rank_clf: #species 
+            continue
+            
+        # print('[[ {} ]]'.format(rank.upper()))
+        print('Calculating mixture at {}-level...'.format(rank))
+
+
+        # List OTUs at this rank in data_obs
+        otus = np.intersect1d(taxtable[rank].dropna().unique(), data_obs.index)
+
+        # Determine rank below
+        ranks_below = taxonomy_order[0:taxonomy_order.index(rank)]
+
+        for otu in otus:
+
+        	# Get nearest available children within clade
+            clade = taxtable.loc[taxtable[rank] == otu, ranks_below]
+            children = get_children(clade)
+            children = np.intersect1d(data_obs.index, children)
+
+            # Calculate sum of reads among nearest children
+            children_sum = data_tss.loc[children].sum() + data_ctm.loc[children].sum()
+            children_sum = children_sum.replace(0, np.nan) # avoid divide by zero error
+
+            # Compute fractions
+            pct_tss.loc[otu] = data_tss.loc[children].sum().divide(children_sum).fillna(0)
+            pct_ctm.loc[otu] = data_ctm.loc[children].sum().divide(children_sum).fillna(0)
+
+            # Compute mixtures
+            data_tss.loc[otu] = (pct_tss.loc[otu]*data_obs.loc[otu]).fillna(0)
+            data_ctm.loc[otu] = (pct_ctm.loc[otu]*data_obs.loc[otu]).fillna(0)
+
+    return data_tss, data_ctm, pct_tss, pct_ctm
+
+
+def nan_median(v, n=5):
 	'''Returns the median of a series ignoring NaNs, unless there are
 	fewer than n non-null values.'''
 
 	if len(v) - sum(v.isnull()) < n: return np.nan
 	else: return np.nanmedian(v)
-
-
-def impute_mixtures(pct):
-	'''The mixtures (tissue-resident/contamination) are difficult to estimate when
-	very few reads from a given clade were found in a given sample. Assuming that
-	mixtures are similar for samples processed at on the same plate/center, we
-	first try to impute using the plate average (if there are sufficient wells),
-	then impute using the center average. Since it primarily affects low-abundance
-	taxa, imputation does not have a significant affect on the full dataset.'''
-
-	print("\nImputing mixture fractions for missing data...")
-
-	fname = './metadata/metadata.{}.all.txt'.format(PROJECT)
-	meta = pd.read_csv(fname,index_col=0,sep='\t',low_memory=False)
-	meta = meta.loc[pct.columns]
-
-	frames = []
-
-	for sample_type in ['blood','tissue']:
-
-		if sample_type == 'tissue':
-			samples = meta.index[meta['sample.Sample'].isin(['PT','STN'])]
-		else:
-			samples = meta.index[meta['sample.Sample']=='BDN']
-
-		if len(samples) == 0: continue
-
-		plates = meta.loc[samples,'aliquot.plate_id'].value_counts()
-		plates = plates.index[ plates > 5 ] # Only grab plates with < 5 instances
-
-		centers = meta.loc[samples,'aliquot.center_name'].unique()
-
-		df_pct = pct[samples].dropna(0,'all')
-
-		df_real = (~df_pct.isnull())
-
-		print("Screening {} plates, {} centers for {}...".format(len(plates),len(centers),sample_type))
-
-		# Impute by plate
-		for plate in plates:
-
-			batch_samples = np.intersect1d(df_pct.columns, meta.index[meta['aliquot.plate_id']==plate])
-			df_pct[batch_samples] = df_pct[batch_samples].apply(
-				lambda x: x.fillna(nan_median(x)),axis=1)
-			# print("plate {}: {:.2f}% sparsity".format(plate,100*df_pct.isnull().sum().sum()/len(df_pct.unstack())))
-
-		# Impute by center
-		for center in centers:
-    
-			batch_samples = np.intersect1d(df_pct.columns, meta.index[meta['aliquot.center_name']==center])
-			df_pct[batch_samples] = df_pct[batch_samples].apply(
-				lambda x: x.fillna(nan_median(x[df_real.loc[x.name,batch_samples]])),axis=1)
-			# print("center {}: {:.2f}% sparsity".format(center,100*df_pct.isnull().sum().sum()/len(df_pct.unstack())))
-
-		df_pct = df_pct.apply(lambda x: x.fillna(nan_median(x[df_real.loc[x.name]],n=1)),axis=1)
-		# print("Final sparsity: {:.2f}%".format(100*df_pct.isnull().sum().sum()/len(df_pct.unstack())))
-		frames.append(df_pct)
-
-	pct_imputed = pd.concat(frames,axis=1)
-
-	return pct_imputed
 
 
 def predict_contaminants(PROJECT,assay,domain,stat, max_fdr=0.05, max_prev=0.2):
@@ -142,7 +180,7 @@ def predict_contaminants(PROJECT,assay,domain,stat, max_fdr=0.05, max_prev=0.2):
 
 	fname = './prevalence/prevalence.{}.{}.{}.{}.txt'.format(PROJECT,assay,domain,stat)
 	df = pd.read_csv(fname,sep='\t',index_col=0)
-	df = df.loc[df['type']==level_clf]
+	df = df.loc[df['type']==rank_clf]
 
 	ix_tss = df.index[(df['fisher.fdr'] < max_fdr) & (df['prev.neg.pct'] < max_prev)]
 	ix_ctm = df.index[~df.index.isin(ix_tss)]
@@ -152,101 +190,92 @@ def predict_contaminants(PROJECT,assay,domain,stat, max_fdr=0.05, max_prev=0.2):
 
 def create_parser():
 
-	parser = argparse.ArgumentParser(
-		description="""Parses the PathSeq output files from ./pathseq_out and
-		collates unambiguously-aligned reads for each taxa into an n x m table,
-		with n taxa (NCBI taxonomy ID) and m sequencing runs (UUIDs). This
-		table is saved to ./results/$project/$assay.""")
+    parser = argparse.ArgumentParser(
+        description="""Parses the PathSeq output files from ./pathseq_out and
+        collates unambiguously-aligned reads for each taxa into an n x m table,
+        with n taxa (NCBI taxonomy ID) and m sequencing runs (UUIDs). This
+        table is saved to ./results/$project/$assay.""")
 
-	parser.add_argument('-p','--project', nargs='?', required=True,
-		help="""TCGA sequencing project (eg. COAD)""")
-	parser.add_argument('-a','--assay', nargs='?', required=True,
-		help="""TCGA experimental strategy (eg. WGS)""")
-	parser.add_argument('-s','--statistic', nargs='?',default='unambiguous',
-		help="""Statistic to acquire from pathseq output. Options include
-		"unambiguous" (default), "score", "reads".""")
-	parser.add_argument('-d','--domain', nargs='?',default='bacteria',
-		help="""Domain or kingdom of interest. Options include:
-		"bacteria" (default), "archaea", "fungi", "viruses".""")
+    parser.add_argument(
+        '-p', '--project', nargs='?', required=True,
+        help="""TCGA sequencing project (eg. COAD)""")
+    parser.add_argument(
+        '-a', '--assay', nargs='?', required=True,
+        help="""TCGA experimental strategy (eg. WGS)""")
+    parser.add_argument(
+        '-s', '--statistic', nargs='?', default='unambiguous',
+        help="""Statistic to acquire from pathseq output. Options include
+        "unambiguous" (default), "score", "reads".""")
+    parser.add_argument(
+        '-d', '--domain', nargs='?', default='bacteria',
+        help="""Domain or kingdom to classify. Options include:
+        "bacteria" (default), "archaea", "fungi", "viruses".""")
+    parser.add_argument(
+        '--q-value', nargs='?', default=0.05,
+        help="""Maximum FDR q-value at which to classify taxa
+        as tissue-resident. Default: 0.05".""")
+    parser.add_argument(
+        '--max-prevalence-blood', nargs='?', default=0.2,
+        help="""Maximum blood prevalence at which to classify
+        taxa as tissue-resident. Default: 0.2 (20%%)""")
+    parser.add_argument(
+        '--rank-for-classification', nargs='?', default='species',
+        help="""Taxonomic rank to be used for classification. Abundance
+        for higher-order taxa will be adjusted recursively. No features
+        below this rank will be preserved. Default: species.""")
+    parser.add_argument(
+        '--stat-for-classification', nargs='?', default='unambiguous',
+        help="""Pathseq output statistic to be be used for classification.
+        Default: unambiguous.""")
+    parser.add_argument(
+        '--assay-for-classification', nargs='?', default='WGS',
+        help="""Assay to be be used for classification. Default: WGS.""")
+    parser.add_argument(
+        '--custom-tissue-resident-list', nargs='?', default='',
+        help="""Use a custom list of tissue-resident taxa. Taxa not in this
+        list will be classified as contamination. Provide a file path to a
+        text file containing the list of taxa separated by newlines.""")
 
-	return parser
-
+    return parser
 
 
 if __name__ == "__main__":
 
-	parser = create_parser()
-	args = parser.parse_args()
-	print(args)
+    parser = create_parser()
+    args = parser.parse_args()
+    print(args)
 
-	d = vars(args)
-	PROJECT = d['project']
-	ASSAY = d['assay']
-	DOMAIN = d['domain']
-	STAT = d['statistic']
+    # Load arguments
+    d = vars(args)
+    PROJECT = d['project']
+    ASSAY = d['assay']
+    DOMAIN = d['domain']
+    STAT = d['statistic']
+    QVALUE = d['q_value']
+    MAXPREV = d['max_prevalence_blood']
+    rank_clf = d['rank_for_classification']
+    stat_clf = d['stat_for_classification']
+    assay_clf = d['assay_for_classification']
+    custom_list = d['custom_tissue_resident_list']
 
-	# Use these parameters to classify taxa and estimate mixtures
-	assay_clf = 'WGS'
-	stat_clf = 'unambiguous'
-	level_clf = 'species'
+    # Load taxonomy index
+    fname = './taxonomy/taxa.all.txt'
+    taxa = pd.read_table(fname, index_col=0)
 
-	print("\nDecontaminating the following dataset:")
-	print(PROJECT, ASSAY, STAT)
-	print("\nClassification will be performed at the <{}> level with the following dataset:".format(level_clf))
-	print(PROJECT, assay_clf, stat_clf)
+    # Load data to use for classification
+    fname = './results/{}/{}/{}.{}.txt'.format(
+        PROJECT, assay_clf, DOMAIN, stat_clf)
+    data_clf = pd.read_table(fname, index_col=0)
 
-	# Load taxonomy data
-	taxa = pd.read_csv('./taxonomy/taxa.all.txt',sep='\t',index_col=0)
+    # Load observed data to be decomposed
+    fname = './results/{}/{}/{}.{}.txt'.format(PROJECT, ASSAY, DOMAIN, STAT)
+    data_obs = pd.read_table(fname, index_col=0)
 
-	# Load data to use for classification
-	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,assay_clf,DOMAIN,stat_clf)
-	data_clf = pd.read_csv(fname,sep='\t',index_col=0)
+    # Load taxonomy table
+    fname = './taxonomy/tables/tax_table.all.ids.txt' #.format(DOMAIN)
+    taxtable = pd.read_table(fname, index_col=0)
+    taxtable = taxtable.loc[taxtable[rank_clf].isin(data_obs.index)]
 
-	# Load data to classify
-	fname = './results/{}/{}/{}.{}.txt'.format(PROJECT,ASSAY,DOMAIN,STAT)
-	data = pd.read_csv(fname,sep='\t',index_col=0)
+    main()
+    print("Done.\n")
 
-	# Classify tissue-resident vs. contaminant taxa
-	ix_ctm_clf, ix_tss_clf = predict_contaminants(
-			PROJECT,
-			assay_clf,
-			DOMAIN,
-			stat_clf
-	)
-
-	# Intersect indices with data to be classified
-	ix_all = data.index[data.index.isin(taxa.index[taxa['type']==level_clf])]
-	ix_tss = ix_tss_clf
-	ix_ctm = np.setdiff1d(ix_all, ix_tss_clf)
-
-	print("Identified {} tissue-resident {}-level taxa".format(len(ix_tss),level_clf))
-
-	# Save mixtures and assocated fractions for both subpopulations
-	for sub_pop in ['decontam','contam']: 
-
-		print("\nIsolating subpopulation '{}'...".format(sub_pop))
-
-		# Get species classified as tissue-resident (decontam) or contaminant (contam)
-		ix = {'decontam':ix_tss, 'contam':ix_ctm}[sub_pop]
-
-		# Use raw mixtures to compare tissue-resident vs. contamination fractions.
-		pct_raw = compute_mixture_fractions(data, ix, level_clf=level_clf)
-		fname = './mixtures/{}.{}.{}.{}.{}.raw.txt'.format(sub_pop, PROJECT, ASSAY, DOMAIN, stat_clf)
-		pct_raw.to_csv(fname,sep='\t')
-
-		# Use raw mixtures to generate the subpopulation.
-		data_sub = extract_subpopulation(pct_raw, data, ix)
-		fname = './results/{}/{}/{}.{}.{}.raw.txt'.format(PROJECT, ASSAY, DOMAIN, STAT, sub_pop)
-		data_sub.to_csv(fname,sep='\t')
-
-		# Use imputed mixtures to compare tissue-resident vs. contamination fractions.
-		pct_imputed = impute_mixtures(pct_raw)
-		fname = './mixtures/{}.{}.{}.{}.{}.imputed.txt'.format(sub_pop, PROJECT, assay_clf, DOMAIN, stat_clf)
-		pct_imputed.to_csv(fname,sep='\t')
-
-		# Use imputed mixtures to generate the subpopulation.
-		data_sub = extract_subpopulation(pct_imputed, data, ix)	
-		fname = './results/{}/{}/{}.{}.{}.txt'.format(PROJECT, ASSAY, DOMAIN, STAT, sub_pop)
-		data_sub.to_csv(fname,sep='\t')
-
-		print("Done.")
