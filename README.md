@@ -2,7 +2,7 @@
 
 ### Description
 
-The pipeline used to generate the TCGA database is broken into five steps:
+The pipeline used to generate the TCGA database is broken into the following scripts:
 
   1. Metagenomic screening (`pathseq.sh`)
   2. Tabulation of results (`collate_pathseq_output.py`)
@@ -138,7 +138,7 @@ This script concatenates together the data, metadata (in `./metadata/`), and rea
   * `-d`, `--domain` - Microbial domain to analyze (default is `bacteria`)
 
 
-### 6. package_phyloseq.R
+### 7. package_phyloseq.R
 ~~~
 Rscript convert_to_phyloseq.R -p $project  -a $assay -l $level -n $normalization [ -s $statistic -d $domain -t $sample_type ]
 ~~~
